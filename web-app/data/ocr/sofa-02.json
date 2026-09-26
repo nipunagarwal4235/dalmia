@@ -1,0 +1,182 @@
+[
+  {
+    "box" : [
+      0.68163382354428081,
+      0.098550719658817898,
+      0.92936814269511814,
+      0.14418183810151919
+    ],
+    "confidence" : 1,
+    "text" : "Dalmia®"
+  },
+  {
+    "box" : [
+      0.68958743317452575,
+      0.14098837210710757,
+      0.90569743827275639,
+      0.15697674390548932
+    ],
+    "confidence" : 1,
+    "text" : "HARDWARE"
+  },
+  {
+    "box" : [
+      0.053002887340977495,
+      0.14371565972397637,
+      0.21025840912773583,
+      0.16442387513340728
+    ],
+    "confidence" : 1,
+    "text" : "ABOUT US"
+  },
+  {
+    "box" : [
+      0.055009824566500241,
+      0.19746376791514875,
+      0.24754420271798872,
+      0.21947674454775079
+    ],
+    "confidence" : 1,
+    "text" : "OUR STORY:-"
+  },
+  {
+    "box" : [
+      0.053045166553625435,
+      0.22524154617287717,
+      0.90373282931404209,
+      0.24275362346756324
+    ],
+    "confidence" : 1,
+    "text" : "Founded By Mr. Naveen Dalmia, Our Company Has Grown From A Small Family-run Shop"
+  },
+  {
+    "box" : [
+      0.051080553571926535,
+      0.24396135269455355,
+      0.6758349668525383,
+      0.26026570052064057
+    ],
+    "confidence" : 1,
+    "text" : "To One Of The Most Trusted Names In Hardware Supplies In India."
+  },
+  {
+    "box" : [
+      0.054770080666554026,
+      0.28197745987675982,
+      0.25959116238903795,
+      0.305393498749299
+    ],
+    "confidence" : 1,
+    "text" : "OUR BRAND:-"
+  },
+  {
+    "box" : [
+      0.053045178897157028,
+      0.31099033828293587,
+      0.93713163818790468,
+      0.3272946861090229
+    ],
+    "confidence" : 1,
+    "text" : "Dalmia Hardware Is Synonymous With Quality, Reliability, And Exceptional Customer Service."
+  },
+  {
+    "box" : [
+      0.05304517304351334,
+      0.32848837224968053,
+      0.91355600538751858,
+      0.34601449262903183
+    ],
+    "confidence" : 1,
+    "text" : "We Pride Ourselves On Offering A Wide Range Of Hardware Products, From Door Handles"
+  },
+  {
+    "box" : [
+      0.053045180459692982,
+      0.34722222244744327,
+      0.90962672502413333,
+      0.36482558123217868
+    ],
+    "confidence" : 1,
+    "text" : "And Hinges To Power Tools And Plumbing Supplies. Our Commitment To Sourcing The Best"
+  },
+  {
+    "box" : [
+      0.052991771999179482,
+      0.36486938576299932,
+      0.71912188778247199,
+      0.38229370947153818
+    ],
+    "confidence" : 1,
+    "text" : "Products From Around The World Has Made Us The Go-to Destination."
+  },
+  {
+    "box" : [
+      0.055009822337012744,
+      0.40552325542613032,
+      0.25540275111496924,
+      0.42753623205873226
+    ],
+    "confidence" : 1,
+    "text" : "OUR VISION:-"
+  },
+  {
+    "box" : [
+      0.051080538129932351,
+      0.43297101457052256,
+      0.88408645574763045,
+      0.45058139518553575
+    ],
+    "confidence" : 1,
+    "text" : "To Be The Leading Hardware Solutions Provider In India, Known For Our Comprehensive"
+  },
+  {
+    "box" : [
+      0.053045186722505265,
+      0.45203488387896873,
+      0.79960707238171691,
+      0.46947674402265782
+    ],
+    "confidence" : 1,
+    "text" : "Product Range, Innovative Offerings, And Unparalleled Customer Experience."
+  },
+  {
+    "box" : [
+      0.054789393431556005,
+      0.48981135832229672,
+      0.27723194558669539,
+      0.51325874981387809
+    ],
+    "confidence" : 1,
+    "text" : "OUR MISSION:-"
+  },
+  {
+    "box" : [
+      0.051080542603473653,
+      0.51871980668099726,
+      0.86836935896823575,
+      0.53502415450708429
+    ],
+    "confidence" : 1,
+    "text" : "To Empower Our Customers With High-quality Hardware Solutions, Expert Advice, And"
+  },
+  {
+    "box" : [
+      0.053045179580739919,
+      0.53623188428128798,
+      0.87033399594550198,
+      0.55377906957558209
+    ],
+    "confidence" : 1,
+    "text" : "Excellent Service, Contributing To The Success Of Their Projects And The Improvement"
+  },
+  {
+    "box" : [
+      0.053045181304842585,
+      0.55668604664814569,
+      0.26915521133573517,
+      0.57267441844652744
+    ],
+    "confidence" : 1,
+    "text" : "Ot Their Living Spaces."
+  }
+]
