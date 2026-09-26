@@ -43,6 +43,12 @@ Next.js builds a separate page for every model. React handles search, filters, a
 
 The application keeps its data in JSON files. It does not need a database or the previous custom Node.js server.
 
+## Visual design
+
+The dashboard follows the supplied brochures. It uses charcoal panels, silver diagonal lines, white cards, and small gold accents.
+
+The sidebar and favicon use the original logo paths from the cover of `door-handles-knobs.pdf`. Product photographs keep their original colors.
+
 ## Pages and features
 
 | Address | Purpose |
