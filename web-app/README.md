@@ -41,7 +41,9 @@ npm start -- --port 4175
 
 Next.js builds a separate page for every model. React handles search, filters, and saved products. Next.js serves and optimizes the product images.
 
-The application keeps its data in JSON files. It does not need a database or the previous custom Node.js server.
+The application reads the shared Supabase catalog when its environment variables are set.
+Without those variables, it uses the bundled JSON catalog.
+See [the database guide](../supabase/README.md) for setup and deployment.
 
 ## Visual design
 

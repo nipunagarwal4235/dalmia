@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Dalmia Hardware",
+    "slug": "dalmia-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "dalmia",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dalmiahardware.catalog"
+    },
+    "android": {
+      "package": "com.dalmiahardware.catalog",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": [],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Dalmia Hardware",
+      "shortName": "Dalmia",
+      "themeColor": "#171717",
+      "backgroundColor": "#101010",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-image",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120,
+          "resizeMode": "contain",
+          "backgroundColor": "#171717"
+        }
+      ]
+    ]
+  }
+}

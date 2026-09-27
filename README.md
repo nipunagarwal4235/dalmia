@@ -2,7 +2,12 @@
 
 The `web-app/` folder contains the Next.js dashboard, source PDFs, catalog data, and images.
 
-The `mobile-app/` folder is reserved for the mobile application. Its `.gitkeep` file preserves the folder in Git.
+The `mobile-app/` folder contains the Expo app for Android and iPhone.
+
+The `supabase/` folder contains the shared catalog database and its tests.
+
+Both apps read the same Supabase catalog when their environment variables are set.
+See [supabase/README.md](supabase/README.md) for setup and deployment.
 
 ## Start the web application
 

@@ -1,0 +1,10 @@
+.git/
+.env*
+**/.env*
+**/node_modules/
+**/.next/
+**/test-results/
+**/playwright-report/
+/mobile-app/
+/supabase/
+/scripts/

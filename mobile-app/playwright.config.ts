@@ -1,0 +1,2 @@
+import {defineConfig,devices} from '@playwright/test';
+export default defineConfig({testDir:'./tests',testMatch:'**/*.spec.ts',fullyParallel:false,workers:1,use:{baseURL:'http://127.0.0.1:4182',channel:'chrome',trace:'retain-on-failure'},projects:[{name:'android-size',use:{...devices['Pixel 7'],defaultBrowserType:'chromium'}},{name:'iphone-size',use:{...devices['iPhone 13'],defaultBrowserType:'chromium'}}],webServer:{command:'python3 -m http.server 4182 --bind 127.0.0.1 --directory dist',url:'http://127.0.0.1:4182',reuseExistingServer:!process.env.CI,timeout:15000}});
