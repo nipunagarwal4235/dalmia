@@ -43,8 +43,8 @@ Next.js serves a separate page for every model. React handles search, filters, a
 
 The application reads the shared Supabase catalog when its environment variables are set.
 Supabase Storage supplies catalog images, page previews, and PDF links.
-Next.js optimizes images from the configured project's `catalog-media` bucket.
-Without those variables, it uses the bundled JSON catalog.
+Next.js optimizes images from the configured project's `catalog-media` bucket. Vercel deployments exclude local product images and page previews.
+The Supabase project URL is required for catalog media. Images have no local fallback.
 See [the database guide](../supabase/README.md) for setup and deployment.
 
 ## Visual design

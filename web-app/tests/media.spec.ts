@@ -4,6 +4,20 @@ test.beforeEach(() => {
   test.skip(process.env.DALMIA_TEST_LIVE_MEDIA !== '1', 'This test needs the live Supabase media bucket.');
 });
 
+test('failed Storage images do not switch to local files', async ({page}) => {
+  const localImages: string[] = [];
+  page.on('request', request => {
+    if (/^\/assets\/(products|pages)\//.test(new URL(request.url()).pathname)) localImages.push(request.url());
+  });
+  await page.route('**/_next/image?**', route => route.abort());
+  await page.goto('/models/door-handles-2605');
+  const image = page.locator('.detail-picture img');
+  await expect(image).toHaveAttribute('src', /catalog-media/);
+  await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete)).toBe(true);
+  expect(await image.evaluate((element: HTMLImageElement) => element.naturalWidth)).toBe(0);
+  expect(localImages).toEqual([]);
+});
+
 test('catalog images and PDF links use Supabase Storage', async ({page, request}) => {
   await page.goto('/models/door-handles-2605');
   const picture = page.locator('.detail-picture');

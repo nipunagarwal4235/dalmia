@@ -3,17 +3,15 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {createHash} from 'node:crypto';
 import {findProducts,swipeAction,nextIndex,restoreSaved} from '../src/lib/catalog.mjs';
 import {calculatedPrices} from '../src/lib/pricing.mjs';
 const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const {products,documents}=JSON.parse(fs.readFileSync(path.join(root,'src/data/catalog.json')));
 
-test('All 149 products and 148 distinct pictures are bundled offline',()=>{
+test('All 149 products retain their distinct Storage image paths',()=>{
  assert.equal(products.length,149);assert.equal(documents.length,5);
  const pictured=products.filter(p=>p.images.length);assert.equal(pictured.length,148);
- const hashes=pictured.map(p=>createHash('sha256').update(fs.readFileSync(path.join(root,'assets/products',path.basename(p.images[0].src)))).digest('hex'));
- assert.equal(new Set(hashes).size,148);
+ assert.equal(new Set(pictured.map(p=>p.images[0].src)).size,148);
  assert.equal(products.find(p=>p.model==='1202').images.length,0);
  assert.equal(products.reduce((count,p)=>count+p.variants.reduce((n,v)=>n+Object.values(v.prices).filter(price=>price!==null).length,0),0),938);
 });

@@ -13,11 +13,17 @@ test('product pictures load from Supabase Storage', async ({page}) => {
   await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.naturalWidth)).toBeGreaterThan(0);
 });
 
-test('bundled product pictures load when Storage cannot be reached', async ({page}) => {
+test('unavailable Storage does not trigger local image requests', async ({page}) => {
+  const localImages: string[] = [];
+  page.on('request', request => {
+    if (new URL(request.url()).pathname.startsWith('/assets/')) localImages.push(request.url());
+  });
+  const failed = page.waitForEvent('requestfailed', request => request.url().includes('/catalog-media/assets/products/'));
   await page.route('**/storage/v1/object/public/catalog-media/**', route => route.abort());
   await page.goto('/');
-  const image = page.locator('[data-testid^="image-"] img').first();
-  await expect(image).toHaveAttribute('src', /\/assets\//);
-  await expect(image).not.toHaveAttribute('src', /supabase\.co/);
-  await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.naturalWidth)).toBeGreaterThan(0);
+  await failed;
+  const picture = page.locator('[data-testid^="image-"]').first();
+  await expect(picture).toBeVisible();
+  await expect(picture.locator('img')).toHaveCount(0);
+  expect(localImages).toEqual([]);
 });

@@ -35,8 +35,8 @@ Never put a database password or service-role key in an app environment variable
 Supabase Storage serves 368 catalog images and five PDFs from the public `catalog-media` bucket.
 The database stores relative file paths and metadata.
 Both apps resolve these paths to the same bucket through their Supabase project URL.
-The mobile app stores downloaded pictures on the device and uses bundled originals if a download fails.
-Local source files remain available as backups and for offline builds.
+The mobile app caches pictures downloaded from Supabase. Both apps require Supabase Storage for catalog images and have no local image fallback.
+Original image files remain in the web source folder for source comparisons and Storage uploads. Vercel deployments exclude these local images.
 Likes remain on each device because neither app includes a shared sign-in flow.
 
 ## Catalog media
@@ -66,7 +66,7 @@ After a web production build or mobile web export, run this command from the mat
 DALMIA_TEST_LIVE_MEDIA=1 npm run test:browser -- media.spec.ts
 ```
 
-These tests cover Storage images and PDF downloads on the website, plus image downloads and bundled fallback pictures in the mobile preview.
+These tests cover Storage images and PDF downloads on the website, plus image downloads and failed requests without a local fallback in the mobile preview.
 
 ## Create the hosted database
 
@@ -116,7 +116,7 @@ For this project, both EAS profiles already include the mobile variables.
 Restart the apps after you change their environment files.
 If an Expo export retains old variables, run `npm run export:web -- --clear` from `mobile-app`.
 
-Without these variables, both apps use their bundled catalog files.
+Both apps require their Supabase project URL to load catalog media. A missing URL produces an error instead of local image links.
 If a configured database request fails, the website shows its error page.
 The mobile app retains its last usable catalog when a request fails.
 

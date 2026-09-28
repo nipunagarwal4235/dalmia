@@ -7,12 +7,14 @@ const origin = 'https://qjaryhukmpodadrcfopb.supabase.co';
 test('both apps resolve catalog files to Storage and preserve spaces and page references', () => {
   assert.equal(catalogMediaURL('/assets/products/heavy bracket.jpg', origin + '/'), `${origin}/storage/v1/object/public/catalog-media/assets/products/heavy%20bracket.jpg`);
   assert.equal(catalogDocumentURL({file: 'SOFA LEG (1).pdf'}, 8, origin), `${origin}/storage/v1/object/public/catalog-media/documents/SOFA%20LEG%20(1).pdf#page=8`);
-  assert.equal(catalogMediaURL('https://example.org/custom.jpg', origin), 'https://example.org/custom.jpg');
+  const stored = `${origin}/storage/v1/object/public/catalog-media/assets/image.jpg`;
+  assert.equal(catalogMediaURL(stored, origin), stored);
 });
 
-test('unconfigured apps keep their local files and existing web fallback', () => {
-  assert.equal(catalogMediaURL('assets/image.jpg'), '/assets/image.jpg');
-  assert.equal(catalogDocumentURL({file: 'prices.pdf'}, undefined, '', 'https://dalmia-blush.vercel.app'), 'https://dalmia-blush.vercel.app/documents/prices.pdf');
+test('missing configuration and non-Storage URLs cannot fall back to other image hosts', () => {
+  assert.throws(() => catalogMediaURL('assets/image.jpg'), /Set the Supabase project URL/);
+  assert.throws(() => catalogDocumentURL({file: 'prices.pdf'}), /Set the Supabase project URL/);
+  assert.throws(() => catalogMediaURL('https://example.org/custom.jpg', origin), /must use the configured Supabase/);
 });
 
 test('mobile uses the same Storage path rules as the web app', async () => {

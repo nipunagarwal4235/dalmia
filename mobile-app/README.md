@@ -2,11 +2,11 @@
 
 This Expo app shows the 149 Dalmia products as a vertical feed. It uses the brochure logo, charcoal surfaces, silver image panels, and gold accents.
 
-The app includes 148 catalogue pictures, product specifications, listed prices, and six discount calculations. These files work offline.
+The app includes product specifications, listed prices, and six discount calculations. It loads all 148 catalogue pictures from Supabase Storage.
 
 With Supabase configured, the app downloads the shared catalog and stores it for offline use.
 It loads product pictures and PDF links from the same project's `catalog-media` bucket.
-It stores downloaded pictures on the device and uses bundled originals if a picture download fails.
+It caches pictures downloaded from Supabase. It does not include bundled product pictures or use a local image fallback.
 Existing installations need a new app build to receive this behavior.
 See [the database guide](../supabase/README.md) to connect both apps to the same project.
 
@@ -89,7 +89,7 @@ Local and cloud builds must use the same signing key to update an installed app.
 ## Update the catalogue
 
 Supabase supplies the live catalog when the app connects to a database.
-The web app supplies the bundled offline snapshot, images, pricing calculations, and branding.
+The web app supplies the catalog snapshot, pricing calculations, and branding. Supabase Storage supplies all catalog images.
 
 From `mobile-app`, run:
 
@@ -98,7 +98,7 @@ npm run sync:catalog
 npm test
 ```
 
-The script copies the catalogue and primary image for each model from `../web-app`. It generates static image imports for offline bundling.
+The script copies catalog records and shared code from `../web-app`. It does not copy product images.
 
 Model 1202 has no picture in the supplied catalogue. The app marks its picture as unavailable.
 
