@@ -5,6 +5,9 @@ This Expo app shows the 149 Dalmia products as a vertical feed. It uses the broc
 The app includes 148 catalogue pictures, product specifications, listed prices, and six discount calculations. These files work offline.
 
 With Supabase configured, the app downloads the shared catalog and stores it for offline use.
+It loads product pictures and PDF links from the same project's `catalog-media` bucket.
+It stores downloaded pictures on the device and uses bundled originals if a picture download fails.
+Existing installations need a new app build to receive this behavior.
 See [the database guide](../supabase/README.md) to connect both apps to the same project.
 
 ## Browse and save

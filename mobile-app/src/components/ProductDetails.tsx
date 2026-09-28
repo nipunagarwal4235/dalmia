@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {Modal,View,Text,ScrollView,Pressable,StyleSheet,Linking,Alert} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {Image} from 'expo-image';
+import {CatalogImage} from './CatalogImage';
 import {Icon} from './Icon';
 import {colors as c} from '../theme';
 import {productImage} from '../catalog';
@@ -15,7 +15,7 @@ export function ProductDetails({product:p,documents,priceNote,saved,onClose,onTo
  return <Modal visible animationType="slide" onRequestClose={onClose} presentationStyle="fullScreen"><SafeAreaView style={styles.root} edges={['top','bottom']}>
   <View style={styles.header}><Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel="Close product details" style={styles.iconButton}><Icon name="back"/></Pressable><Text style={styles.headerText}>PRODUCT DETAILS</Text><Pressable onPress={onToggle} accessibilityRole="button" accessibilityLabel={saved?`Unlike model ${p.model}`:`Like model ${p.model}`} style={styles.iconButton}><Icon name="heart" color={c.gold} filled={saved}/></Pressable></View>
   <ScrollView contentContainerStyle={styles.content}>
-   {productImage(p)&&<Image source={productImage(p)} style={styles.picture} contentFit="contain" accessibilityLabel={`${p.category} ${p.model}`}/>}
+   {productImage(p)&&<CatalogImage product={p} style={styles.picture} contentFit="contain" accessibilityLabel={`${p.category} ${p.model}`}/>}
    <Text style={styles.category}>{p.category.toUpperCase()}</Text><Text style={styles.model}>{p.model}</Text>
    {!!p.specs.length&&<Text style={styles.description}>{p.specs.join(' · ')}</Text>}
    <Text style={styles.title}>Finish and size</Text>

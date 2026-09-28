@@ -1,0 +1,2245 @@
+{
+  "verifiedAt": "2026-09-28T13:09:32.019Z",
+  "projectURL": "https://qjaryhukmpodadrcfopb.supabase.co",
+  "bucket": "catalog-media",
+  "files": [
+    {
+      "objectPath": "assets/pages/handle-prices-01.jpg",
+      "size": 342870,
+      "sha256": "2cf0ad3a80ad19f0d240129e82b3816f8034fbcd857a4285d40ef6868cf60654",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handle-prices-02.jpg",
+      "size": 186697,
+      "sha256": "1103b472f872f8614556afaadc647f478c31bff061563adc10b1abb242d31f9d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-01.jpg",
+      "size": 118878,
+      "sha256": "7e97cd43f8101d3d81de0ad6a73b7a712df455cb69566100fa7b15766a648cdb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-02.jpg",
+      "size": 292010,
+      "sha256": "4246436e73a9edfb172dc3820407c74091e741e2437b170e7a54d3167065d93a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-03.jpg",
+      "size": 324498,
+      "sha256": "5d9b02229ef6af160790415e5713396243e998473ec2aa0f21b5a0f3368b8c9d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-04.jpg",
+      "size": 196987,
+      "sha256": "e0bb26a6fd8483d8a439ca6a6ef81a9842c426365112c552355c7440a7eb5a88",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-05.jpg",
+      "size": 181184,
+      "sha256": "af306d5a2619f7590ab55b7e3e1996d834b2d33cfc1145518175b6e837e34746",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-06.jpg",
+      "size": 188627,
+      "sha256": "115e5fed46e13c095835a079b5a0dd4e1a40c0db0b4b59eca04b1fe05526064e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-07.jpg",
+      "size": 193998,
+      "sha256": "972a6d32f5033388508b6cbdae0f9d4d8c7264e5d502b3f2d37925c28fc0ad52",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-08.jpg",
+      "size": 201155,
+      "sha256": "0d7ec3a3be99636eac06c550f72bd0a305d87dfc109a9b17e8e61ad4f5f15a7e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-09.jpg",
+      "size": 183908,
+      "sha256": "a3cb8c3cab0bf8674670dc10b7ffb02c2fbc0ff9677448bb6fc586cead104143",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-10.jpg",
+      "size": 244505,
+      "sha256": "9df7a6b126242b22df2cdde1d514c2322ff1d61c1cdfb7d4affa1127eb290cad",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-11.jpg",
+      "size": 211473,
+      "sha256": "31dac0462d2f6bfa538048ad864a4ee6355f5b0bc25a6dd71ca08c4e74ba5849",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-12.jpg",
+      "size": 209882,
+      "sha256": "403f42e528b3a04cc154d5fa12c1ad0a3c18426cb08df1de8382b00f00aef413",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-13.jpg",
+      "size": 193533,
+      "sha256": "162efc53b1e3c4a338d041364bf743b859fbe8f73eaf9b91217fd0cf4e8aeda7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-14.jpg",
+      "size": 197084,
+      "sha256": "921c1f8f53f08552fc74ce93ec6529467b8c53453008b9b02789006a6a543e4b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-15.jpg",
+      "size": 198372,
+      "sha256": "7a5c1265b4d90746e0ef71a5128bf6bd8e40038b58d2cbcbd44713e4a91d94a1",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-16.jpg",
+      "size": 161950,
+      "sha256": "8768a51b0eba0b07d92056c40b57f3d2c29a473eb094cdfa5e5c816f67eef4f0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-17.jpg",
+      "size": 196664,
+      "sha256": "211d54735ec7c0c49f66ae81254e0dfdf7af3dcee7ee05533825e1a55c768043",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-18.jpg",
+      "size": 190774,
+      "sha256": "a915ed61ef96fae1bd92b6f3e5f2559ddbf90ac84f9f7c8b26a29a0748fdde5f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-19.jpg",
+      "size": 215486,
+      "sha256": "e9b9eaf341d5c576bb6fa730dbb90adef204befc14066f475f959f3adc65613f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-20.jpg",
+      "size": 197754,
+      "sha256": "d50950f14133c456646b2559f0471e3116d031dc0123c1f1a93e8f42d82792bf",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-21.jpg",
+      "size": 205584,
+      "sha256": "243b90dbe616bb0a549e77f383ba533dd9f6472f55151ed56e724efa4d3a1dbf",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-22.jpg",
+      "size": 222924,
+      "sha256": "148fb09b544f2bfcb36d660661fd2c47cfcd6c2ab1d69e8bfd14625e42ec8d90",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-23.jpg",
+      "size": 158447,
+      "sha256": "0a6cca953af818d0b148bb024f73c7e58a73744b20c6f9678883496c9f149226",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-24.jpg",
+      "size": 215365,
+      "sha256": "66e8867b4aa3b0244b451e5a8a81afb489ab95d12c6e444b3c30745a6cd91ac3",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-25.jpg",
+      "size": 156607,
+      "sha256": "af90ff194c869f264f7d949fa102fe1b1d8b683a279795ed88cca4ef105a1931",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-26.jpg",
+      "size": 145977,
+      "sha256": "c725a73891372c42a0b081c4a8e37465c4df2182f95415349a996c866d91ec83",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-27.jpg",
+      "size": 151338,
+      "sha256": "2c73a70250ba1b061c90508c1a4e881607477667a2c9b7098674ad1d57e333b1",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-28.jpg",
+      "size": 141990,
+      "sha256": "1d993177892191e946f7cbf13e2ab79e26492fc6203ca6b3074caf2ce6bc071b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-29.jpg",
+      "size": 147261,
+      "sha256": "55f0b019c321f93938859565ed28aeaea617b060278e1278d2d25f2f0be149ea",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-30.jpg",
+      "size": 167144,
+      "sha256": "1d55c4dcf0cf93affd5a1aa701121e931d7628a8ee960e86c4823987a9e5901e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/handles-31.jpg",
+      "size": 104389,
+      "sha256": "af022ef25d00d61f871f558f7e6809073e2961bb43c64aebd0df3f03d6c8f459",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/profile-01.jpg",
+      "size": 258095,
+      "sha256": "fd3b2eb0fbe0da9e308cb1735222aa959bb6e2cd81950d0d2208003918013fa1",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/profile-02.jpg",
+      "size": 284075,
+      "sha256": "bdb2a5b2b257c5761af9d677042ee32fd969e8e074338aec0f74873dbe015fa3",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/profile-03.jpg",
+      "size": 267024,
+      "sha256": "7b608153a080fcf792ab51ae59184c21785d3ead940cc71d981f8df44cfdcda2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/profile-04.jpg",
+      "size": 273510,
+      "sha256": "202fc92f0ee1a96d16e14dde4059edfeb35f0366be97ebbce12f1f4562aef678",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-01.jpg",
+      "size": 113930,
+      "sha256": "bf73db77b2740ffbe8ef8dd00e56e5398c87fb394d80ff8fa026886a265f1eb4",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-02.jpg",
+      "size": 279533,
+      "sha256": "97bb6490ce6027476e4c1a065839098290ee0f836caac8bffc049a2656ec7a09",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-03.jpg",
+      "size": 216986,
+      "sha256": "c2304ee16790313b8d0774f1b3d59074b5e266e74d674f7eb813bb9c5176978c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-04.jpg",
+      "size": 169511,
+      "sha256": "46d48a0b852dc3538b3b316be7d249200e153dde0a94ae18163b503101a92b61",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-05.jpg",
+      "size": 148803,
+      "sha256": "4aa4dd0b74af8ac620c063e8167b6fbf19ae52016293b6e8562ce99ec1e04d78",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-06.jpg",
+      "size": 158375,
+      "sha256": "530bd74719671301180eb117080e9a394bd272541ce01855431855050aa30b35",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-07.jpg",
+      "size": 161120,
+      "sha256": "80b60bf29a4841cac19ca18eee6976614b7ea8471ef3c6ec40b4b8108853d973",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-08.jpg",
+      "size": 159280,
+      "sha256": "ecaee2d57428c21d5c82dbd698446ddcc64fe52b89aa76c8152451dda615839c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-09.jpg",
+      "size": 161680,
+      "sha256": "6bd1ae62a3473e1d4dc2969ad959016e6c893ac5f0475aacc5144bece763b404",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-10.jpg",
+      "size": 182310,
+      "sha256": "cf7edfedda8b5a619827acd407153e51e7ad5f71e7d31827131d71ed4dc78751",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-11.jpg",
+      "size": 193272,
+      "sha256": "7159dfbc0e35d222b70cc788a5d60d754d52d7143cfeb70e22be7e601e7fbb38",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-12.jpg",
+      "size": 175086,
+      "sha256": "35acb37e4b61346146e6c8472cd2453595b4eebdde02ba225247c6576647bbc0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-13.jpg",
+      "size": 166943,
+      "sha256": "28f7b8841189c20965ecb619332ad171c4ec4df898e2af4927ae837d448a899b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-14.jpg",
+      "size": 184202,
+      "sha256": "a7df978c63848b9d8ca9d5cb55b763d8199f18be4d2731c57e8d54e652f7cba5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-15.jpg",
+      "size": 204467,
+      "sha256": "e1d534a13fde929f6efd857d0049fe3dc381e47b1aa44916812da74095a03139",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-16.jpg",
+      "size": 191725,
+      "sha256": "77aee219d08d3a8eca2ffa26538734430d89b1808a946925ff07d3e944d3f1d4",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-17.jpg",
+      "size": 179144,
+      "sha256": "821553307d6f40a3b327a2ca9b12a914c4464b83609c182539dd0d7e35c92565",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-18.jpg",
+      "size": 159011,
+      "sha256": "bafcb0f9f5fb39678586772fac1e19985f93c4ff50be1a159835b3a6e30e7ebc",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-19.jpg",
+      "size": 151122,
+      "sha256": "4d22736d7d74f2948bddbdf1a39d78f0348f3200de1a0d7eec8700f96a9c26fe",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-20.jpg",
+      "size": 201479,
+      "sha256": "abc8acb12252398d4a16f5f43c214ef687d85103866481a11ac4fc9938a532d2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-21.jpg",
+      "size": 197598,
+      "sha256": "5c373b6f7144af19a29ea82927b607bd11fc9d272e3c935f4de5f908b3bcdb92",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-22.jpg",
+      "size": 167542,
+      "sha256": "b9673fe5d12eb2ee25fc4d1e5e2d0764cb0eb085d72262ff434a47c94c9aa58c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-23.jpg",
+      "size": 143673,
+      "sha256": "1e86a16fe12b5e204fcf9e25509299433aee46cf30ea74ffbb9a6a405280bb73",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-24.jpg",
+      "size": 148015,
+      "sha256": "f425a4649852aa293ba8f6cc9cc75ebb2da9ebf998dc755ffd052117d7d412d3",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-25.jpg",
+      "size": 154211,
+      "sha256": "6f8f7fb480050c1063c8bfb54205122fa0bce05bb20abb07bff46dce6e19e0e6",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-26.jpg",
+      "size": 178144,
+      "sha256": "05b850b605d3ce96ea9c0256ff45720573ba83119997c74b89b0fa01225d75e9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-27.jpg",
+      "size": 154511,
+      "sha256": "d2e38d8ca653a2cc0a5e2025e178191114ad55f050bb10ab6da7e945b17fd8bf",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-28.jpg",
+      "size": 162626,
+      "sha256": "1f1cff3da97f64e3ec76a1b8a315528ed913d8fedcdaed848e33b82453b9ea1b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-29.jpg",
+      "size": 160017,
+      "sha256": "03c62812c6401fcf2313ac6eaf8be21c3a5fab781dcfa50a301c6e7834f99c48",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-30.jpg",
+      "size": 156568,
+      "sha256": "d3c5412911e699c0fdb828f76ede872005f7400596cea92190dc07f6bea5528f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-31.jpg",
+      "size": 173810,
+      "sha256": "9e3d17ea60552c245d0ce6a6b11895d869701796bfa3864b1c70ab2fd54430ae",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-32.jpg",
+      "size": 162122,
+      "sha256": "0c4d6ddbefeea113beaa5187e10c8ce30129d9004ea7f82d7cc7e822ef7b81bd",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-33.jpg",
+      "size": 182619,
+      "sha256": "d0aab94fc2a63fc226dfc21e753b0ae04c83810de9b4aa1f1b436f7132eeda11",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-34.jpg",
+      "size": 182818,
+      "sha256": "e2d50ff704a34af3c89da689dbe45bca61323fb441adb2d553a679dc51610e4b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-35.jpg",
+      "size": 148288,
+      "sha256": "02bce0f57f8b2d7bffc88a5bb86496bccafef1b491b303541627308e86e9473d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-36.jpg",
+      "size": 181574,
+      "sha256": "d39c008324d3b7b7a4700b28942156c68c9d05c87c549241720e9f0b8e35aece",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-37.jpg",
+      "size": 155866,
+      "sha256": "0fc9b27bf88bee7636f33b85c31c6c4e96012f7acd4da64d11481d11062e96d2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-38.jpg",
+      "size": 154018,
+      "sha256": "7a6f1608d41623ef6b91e26309cba24d27d9817bf1d9005e9cdd190142636fda",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-39.jpg",
+      "size": 149005,
+      "sha256": "79590d70b0d38a55c75466669d09defa1e29db6cee01e7722ac1142e5849e898",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-40.jpg",
+      "size": 148660,
+      "sha256": "9c5f2ec77806114ea125f1106c1401ccf2751e75e61c33dfea32f8db492970a4",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-41.jpg",
+      "size": 104389,
+      "sha256": "af022ef25d00d61f871f558f7e6809073e2961bb43c64aebd0df3f03d6c8f459",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-01.jpg",
+      "size": 280289,
+      "sha256": "44660c317585812bcd72794f62a9e9998d345d67e156b8a6f5af88c4d05c521f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-02.jpg",
+      "size": 282071,
+      "sha256": "db09b8f9ca7a32ffec11623439dadab2997f12f614fa435849847615103ce35a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-03.jpg",
+      "size": 270015,
+      "sha256": "87645263099197c612c9d44931e9a5c5a10b31ee504737213009f676e6677550",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-04.jpg",
+      "size": 269516,
+      "sha256": "7e0e38241113815cf7bb673a5f2a77f7da240085da38ecd30fab1396d77a66a6",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-05.jpg",
+      "size": 288559,
+      "sha256": "0f71c9ebf6186f0055e55659067586ceba3afcb844e68dd3f7e2f37273825b9f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-06.jpg",
+      "size": 126314,
+      "sha256": "7bdac6cbc9b58b2ee9e33c335298bac03923e7b8e5189845c108fbc9c5fdb103",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-07.jpg",
+      "size": 243463,
+      "sha256": "2d3008055bfc10f7092aeb5dc0cb789e6db47d61c4e6cf558e55f8ff01649e66",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/pages/sofa-prices-08.jpg",
+      "size": 149942,
+      "sha256": "d0be33eaf09251529024d261721cc852465b7b8b558fef5b2c546a541493213c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/brackets-folding table bracket (heavy).jpg",
+      "size": 110657,
+      "sha256": "9cfe7f7631e34515f92a61a883bfd62fab264fcaea1ba6d16b958d57a8c24cfc",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1501.jpg",
+      "size": 86149,
+      "sha256": "a7d1d5da456c7c5c4df483c348475efd1d5ccda14e3a6eaef31472bd0e6d8987",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1502.jpg",
+      "size": 95086,
+      "sha256": "a8b2bbd46135e6e0c11d6c546416902f65c49f7af347c7d5ee9738643eb4bf19",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1503.jpg",
+      "size": 102212,
+      "sha256": "2be0927c107496d8649bc849962aab326a2fb0fb259c71d9942618b460ce8d41",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1504.jpg",
+      "size": 118589,
+      "sha256": "bdd6ce770bfc6a8e542707581cfcdd325973a4a18374be93c97b2e5fdd4a8fa2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1505.jpg",
+      "size": 125871,
+      "sha256": "1c27d99b3a005d636cea9b346f51b84d59f238fa50bfcd9543535af4fbeac576",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1506.jpg",
+      "size": 108508,
+      "sha256": "83eed7795890577a070d09eba13561500510c3f2b3df641f7593dcfe2830a6ef",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1507.jpg",
+      "size": 112292,
+      "sha256": "863844ea6b1bcedce594230e86a2c9273f0be550bf875966c16077873fe08a5e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1508.jpg",
+      "size": 127658,
+      "sha256": "e8a90c89964495d2dbe315ad8eb223ba93632d9028881f061209f7ec4df9ca12",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1509.jpg",
+      "size": 133749,
+      "sha256": "269c526d96637f7126117761e64d9d1788c47fa97b8acc71874d38ccddcaa357",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/concealed-handles-dh-1510.jpg",
+      "size": 138430,
+      "sha256": "a33ca04eaf47b9d1e83541b596ec96dce25a4fbb728c4f18b0908dc4b901ac4a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1701-detail.jpg",
+      "size": 64606,
+      "sha256": "ae463f118dede500507b4112fe8379c3a3063ecd346192ae2f08e350e131bc58",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1701.jpg",
+      "size": 58037,
+      "sha256": "43bef8e6a29bb33fa75107db1c47577ff42a9d71eda1171a5b9f0c889579815f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1702-detail.jpg",
+      "size": 65259,
+      "sha256": "848cd4b8a9da6fa3cc4ff1da9eaa31e1aa7f8098a839bc500257e6e5c79cf79c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1702.jpg",
+      "size": 57082,
+      "sha256": "8b0d0cfc18e62b87fbc173c5925eff7cd9f0807e5b42cda6e9b0900ae2ad8947",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1703-detail.jpg",
+      "size": 59515,
+      "sha256": "ef5874358bb9118ae3f160351348406a9ccd707f50acc7f23a6f96316765b2ae",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1703.jpg",
+      "size": 52187,
+      "sha256": "c6379906fac7bca39981fa65765699918d5c1cc6db0a463d589b888b249ce83c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1704-detail.jpg",
+      "size": 57971,
+      "sha256": "b48284249328bd9017e59e212a4688500411ee979ae2b4188ca91edd7b4bd0f4",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1704.jpg",
+      "size": 49839,
+      "sha256": "135cfe5fe7798752a4cec4b0c01646376750d2f044c64eea81e129a068f13dcd",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1705-detail.jpg",
+      "size": 60113,
+      "sha256": "8731d013a6283a69ad515a7551c0ecdc8f7702e59b4a6429eb0b9a140f5c85fc",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1705.jpg",
+      "size": 53023,
+      "sha256": "a0068c4b5cf45e678b89c2849ca06ad20d8e2c3a10ba14437e80d2508404a928",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1706-detail.jpg",
+      "size": 62899,
+      "sha256": "ccb1c65ce30bdc54a274a07e587b903f8516ea399b7257f7fb41faf99e704b9b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1706.jpg",
+      "size": 54554,
+      "sha256": "52a119c6c392daa5d881e1514f878194028c85148c85d8e03594b3820c45e1d9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1707-detail.jpg",
+      "size": 62727,
+      "sha256": "ccf06d5bb1104e3e65dc1cd3b5167488393ae317e6b7afca296f8a7abe734c11",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1707.jpg",
+      "size": 56095,
+      "sha256": "2b68c0ae8b6943bae0c5400a23c4fb93ccdc21d2a8b20ffca616432b6e13073b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1708-detail.jpg",
+      "size": 64483,
+      "sha256": "619763b43680a0666299031eab537cea65599ea979339890533fff333fc29243",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1708.jpg",
+      "size": 56206,
+      "sha256": "cf2486b4cbb8469ce8e8f116b6a660e6459e32123d487d8f9aa60fee5c953ee5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1709-detail.jpg",
+      "size": 65377,
+      "sha256": "062b46130c93934e382023f8a6c582dd833e1b73a7a105d880ffd657e489b406",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1709.jpg",
+      "size": 58496,
+      "sha256": "85b853496c614f0be87fc92358a730531cb0c9d510ed55ba8d1d156b2858b847",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1710-detail.jpg",
+      "size": 67973,
+      "sha256": "b6b3c3e79e2cc801a8cd0fc6ce49c9f491cf6fb9de5fb9cdb1c77ccb192cc7f7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1710.jpg",
+      "size": 59838,
+      "sha256": "f8dd1447971b0615c08ce53e2ec457a47e1908cf77c964e41add44e2ac14f881",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1711-detail.jpg",
+      "size": 70274,
+      "sha256": "6f2806f5be817e533a9717879beec99a30117ec4d0eb1420b6dba107244dc1fb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1711.jpg",
+      "size": 62935,
+      "sha256": "fe0dbf5d97b2394ce22187a5c52afe2c017fceac46f96b07baa934ce8ecb23ab",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1712-detail.jpg",
+      "size": 48807,
+      "sha256": "aebcd1db90d849407b3caaf246b3fa3d4aaf265e619d1e74d5f7532a966db992",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1712.jpg",
+      "size": 42531,
+      "sha256": "a49bb44f80f954d8b727f133edce816cb20a32183245b94602b917d020d30057",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1713-detail.jpg",
+      "size": 67269,
+      "sha256": "5b49a89148de7ac4a6c45e59a72116c13b5561c9a5ccdd9230ab718cd98944de",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1713.jpg",
+      "size": 53578,
+      "sha256": "28a3a2da36b623030b6b770b46e40e20f55d30988af22b4d98bace41b5c9fd2a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1714-detail.jpg",
+      "size": 73998,
+      "sha256": "7fdbe9b49d940c49665dc7f2827b7cde473fafdb4f511e9ff7951966736cb04c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1714.jpg",
+      "size": 61032,
+      "sha256": "49d1246cae5adaf6775974e9a6cfe8a9cad81556f4453bae5f67e26032cdb700",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1715-detail.jpg",
+      "size": 68626,
+      "sha256": "e8a07cf9162f673abd3e71b516054b9f9c343360ecd654062a348e455819fed7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1715.jpg",
+      "size": 54909,
+      "sha256": "8ca1e9f385ae35a2b03cc79c1d2e00289138d3a1cf531776aee6b7f87381a8f2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1716-detail.jpg",
+      "size": 71520,
+      "sha256": "f0411f216f79aedb1efee7771f1aace6c2822944094671bc3687c52cfc7ad9ac",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1716.jpg",
+      "size": 57704,
+      "sha256": "db50251aaca98ff0b29cd068d46648c87b58bb0f0993b62901205d08ce791951",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1717-detail.jpg",
+      "size": 55747,
+      "sha256": "1a601f6a2e466cf7b0602d285996adfd3da23c67f80c31c3b1e0746011d1a705",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1717.jpg",
+      "size": 43656,
+      "sha256": "8c8555ffa8933eaad7a7ab8e3dc3ee3922d505cbd7506d20e853cb3d6aa1964a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1718-detail.jpg",
+      "size": 72604,
+      "sha256": "c6ac3f1f42eb9e445cca8b931f852e9bd489b529ae0feb503d7bce2e22aa300c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1718.jpg",
+      "size": 60186,
+      "sha256": "fec782184c6e84871879572a2e47defe9efa428212ccaabba16fa6563d8254b7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1719-detail.jpg",
+      "size": 72609,
+      "sha256": "dbf9e2deeae7b8899357911bd84cc7c1647e07da23b97c8d80cb3ef9d2a039af",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1719.jpg",
+      "size": 61447,
+      "sha256": "5a673e1dae8cdde584ea761a68bd7d665266f940ecce4f1a84381ced38c356ed",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1720-detail.jpg",
+      "size": 57672,
+      "sha256": "b4d47c038639375b5ed397fb434d686784aa29bb4f9b33f1a45aff8880cc3bb9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1720.jpg",
+      "size": 45752,
+      "sha256": "ba9b492f26cf191965f49cedea67949042b71d89d2d20318f336a06d537eb1c0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1721-detail.jpg",
+      "size": 61549,
+      "sha256": "e9632aeecaba2550b12c33d52b2122250e2705a58e1d5a5c35a008e94384f7c8",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1721.jpg",
+      "size": 47656,
+      "sha256": "1684f0b3d6ca355e86f09f5c23ea1bdea8c61dbb0a184673ad558b622250614d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1722-detail.jpg",
+      "size": 69599,
+      "sha256": "4160c630c7ba50328776b67963388c96fb16f0afbda81da2e4647b7f8a1b9012",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1722.jpg",
+      "size": 54303,
+      "sha256": "6499f66d83fe67af2483da955f169297be629f157f97e845daf0b7024d550c77",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1723-detail.jpg",
+      "size": 59436,
+      "sha256": "2d8a44b46cf99797997e1a18659698acd815861c8284a2fed5eaa03b56e5c0f1",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1723.jpg",
+      "size": 47075,
+      "sha256": "dc79b127aaa2fc6b9e9059fc541d5b977d09c2d83f6ec20b4ce003ce5d7adfc1",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1724-detail.jpg",
+      "size": 45199,
+      "sha256": "613b5253f313ad8945d880edbb75c201bbc989c0c28f40b29de0c46b16778f47",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1724.jpg",
+      "size": 36231,
+      "sha256": "544ee9693b8ac1ea0272c41e7ee13428e459b68a692bbd7931758fc65a9f41dc",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1725-detail.jpg",
+      "size": 63327,
+      "sha256": "aedb0abac901e4bb25971aebdf20f6a05b53e38490a6f783836eaa9387c574e4",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1725.jpg",
+      "size": 49610,
+      "sha256": "aa97070391cc8500b0596141e55a3ff0e4689511e794f9b1cf712ef0f9b90ae7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1726-detail.jpg",
+      "size": 69762,
+      "sha256": "ca30a0733fbab74111c1b4255e02402da199eef27c27aa81aa11befb05c17381",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1726.jpg",
+      "size": 55034,
+      "sha256": "0d08b3067d0deeafa48c7dfe32f7cceb218eda9582851297757946ace43d2b1d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1727-detail.jpg",
+      "size": 62452,
+      "sha256": "49d7da03300d3e135d4e3591c81b2d6ca935740af985d6dbe9da7b2ebb371493",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1727.jpg",
+      "size": 50244,
+      "sha256": "1f39bf4b863cf13ca6c858fdd48eb5be1f393ab839171a9dd497d5394faf85de",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1728-detail.jpg",
+      "size": 63689,
+      "sha256": "d671e273e39376888fc88470299b9c73fb5cd9f853023607a2da9f93284c62a5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1728.jpg",
+      "size": 54241,
+      "sha256": "1c0a0bef6e802fbee033ec5dc8199b122bdd27c22c75510d2d0fa8ac1b9baac0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1729-detail.jpg",
+      "size": 68397,
+      "sha256": "2016dbe9cecd9690290f87a09c6ae9a4ac616ff4ba142c38129d7da06181dea4",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1729.jpg",
+      "size": 53496,
+      "sha256": "a5829b3e3aca45ed3f7e29feefb68f66544890d5e4f8b2418dda32f9d5b49892",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1730-detail.jpg",
+      "size": 74247,
+      "sha256": "1ae434c7c57088aeeee64332aa184f9e5ec9e9ef3fb0c29020e70ae6d44b198e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1730.jpg",
+      "size": 61531,
+      "sha256": "e3a32f3c011c358deaea73ebaad30ef291a44f329edd7a8149448fba2106a3fd",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1731-detail.jpg",
+      "size": 66555,
+      "sha256": "02d7ae33be71cbbf7880a90a1dc3510ce3ae983f95422bb582e2298f89a09eb3",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1731.jpg",
+      "size": 54911,
+      "sha256": "bccf0b7915ccd2200331dc6d47027b5be71a143ab9bd2991d2bb6426adef3da0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1732-detail.jpg",
+      "size": 64022,
+      "sha256": "ebcac59c14ab9d9757912af7346ef969cd8b9b8806b68152531338ead416e0aa",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1732.jpg",
+      "size": 53062,
+      "sha256": "5c6dcf103b781fe5a9cd671b7deb70b50c1cd9132311643cc2f4039e76677709",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1733-detail.jpg",
+      "size": 64729,
+      "sha256": "f26195332aff97eaa38f539c0526e078ec377c7d58d33720d487550c188cd4df",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1733.jpg",
+      "size": 53186,
+      "sha256": "591fbd8b5b9a1682ae7e3fe1ffaf1ddc92061669463113c1ddc8693a3412001c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1734-detail.jpg",
+      "size": 71407,
+      "sha256": "5c0a2329eee218881dcf8c46bf289f815300ff76a81db089a4142d9cfab11760",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1734.jpg",
+      "size": 60922,
+      "sha256": "38c4891948fec13aa404f67a2c3f4f6254aa38ba3c3550b1a20847869f9a6baf",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1735-detail.jpg",
+      "size": 74615,
+      "sha256": "e8079ecd4deb785b2ce3d588ade5170586ac89f3a19ac42ee5986a60a017c0e6",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-1735.jpg",
+      "size": 59073,
+      "sha256": "fdc2b9b09366eac3f95e63cfd5cc26a1168a96f3606cadcb221e90a278c453f9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2601-detail.jpg",
+      "size": 51700,
+      "sha256": "0fe372259a6536047cd8cc6fc9c432d219816926e96942a36a1880c8ff219d30",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2601-individual.png",
+      "size": 78925,
+      "sha256": "0c5765c16aa34a9700c5d3bab64818cafb5e78909d679d6247b3fc2bcd4e68e6",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2602-detail.jpg",
+      "size": 51700,
+      "sha256": "0fe372259a6536047cd8cc6fc9c432d219816926e96942a36a1880c8ff219d30",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2602-individual.png",
+      "size": 71707,
+      "sha256": "260b1bb7835ee0ff75b923caf45cb25fed025c3d86ecebdded7ce7669fdb2427",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2603-detail.jpg",
+      "size": 51700,
+      "sha256": "0fe372259a6536047cd8cc6fc9c432d219816926e96942a36a1880c8ff219d30",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2603-individual.png",
+      "size": 80006,
+      "sha256": "b45eb8fe05a7ebfe4f8f93f8e441a2ddf3166a0142080cda2bf2da5415544a5c",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2604-detail.jpg",
+      "size": 51700,
+      "sha256": "0fe372259a6536047cd8cc6fc9c432d219816926e96942a36a1880c8ff219d30",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2604-individual.png",
+      "size": 77688,
+      "sha256": "36f5e0a3d44dba637adc1062bf078cf7839b0ff45fb0aee29c417c25cc8b0e64",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2605-detail.jpg",
+      "size": 51700,
+      "sha256": "0fe372259a6536047cd8cc6fc9c432d219816926e96942a36a1880c8ff219d30",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2605-individual.png",
+      "size": 81062,
+      "sha256": "876efc118b737ae03b64c5be4cdfc1028bffd5abb74ff72b2c727b463ef78549",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2606-detail.jpg",
+      "size": 51700,
+      "sha256": "0fe372259a6536047cd8cc6fc9c432d219816926e96942a36a1880c8ff219d30",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2606-individual.png",
+      "size": 82004,
+      "sha256": "c66028d6e5888b2af906aac1a8550d16c358a44963ba9da3575baddd7f1ce8d6",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2607-detail.jpg",
+      "size": 50284,
+      "sha256": "4d75d5a472704fabc55aacf51a539bf0c1309918dbd87183512e3f5ed8975888",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2607-individual.png",
+      "size": 82325,
+      "sha256": "df67cffd1218b4e55848ce6a57405ac13a52c8034e8eab75ab6f434b7c32d832",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2608-detail.jpg",
+      "size": 50284,
+      "sha256": "4d75d5a472704fabc55aacf51a539bf0c1309918dbd87183512e3f5ed8975888",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2608-individual.png",
+      "size": 90511,
+      "sha256": "2b3f2f549f99314cf4d1d0afdb9bd4baf18a20968773991cea7bd70ac119f326",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2609-detail.jpg",
+      "size": 50284,
+      "sha256": "4d75d5a472704fabc55aacf51a539bf0c1309918dbd87183512e3f5ed8975888",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2609-individual.png",
+      "size": 87681,
+      "sha256": "7aaed65cfdb6db6e16979c22e38682098b4428e9f9b805ca889b80fbca8cb870",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2610-detail.jpg",
+      "size": 50284,
+      "sha256": "4d75d5a472704fabc55aacf51a539bf0c1309918dbd87183512e3f5ed8975888",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2610-individual.png",
+      "size": 94922,
+      "sha256": "39036d6a57bf5e795dcb1710ec303214c8b491e91635b7b92cfe9faf3d1e55ae",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2611-detail.jpg",
+      "size": 50284,
+      "sha256": "4d75d5a472704fabc55aacf51a539bf0c1309918dbd87183512e3f5ed8975888",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/door-handles-2611-individual.png",
+      "size": 89089,
+      "sha256": "6efb8007e68cb2aa021b19c09c7be81702126492da39b97c21e52d156dac22cd",
+      "type": "image/png"
+    },
+    {
+      "objectPath": "assets/products/knobs-2001-detail.jpg",
+      "size": 51620,
+      "sha256": "e9506fb166cf5b349cf2c0415dc315a39beffc90e46fd4ac5ea2c60b43c8159e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2001.jpg",
+      "size": 44193,
+      "sha256": "ebdc800d4896e4e589b9fdeb5f2573bac5608b98bcbf70c35eba1a66543a166a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2002-detail.jpg",
+      "size": 48467,
+      "sha256": "e42d6befbdd6bd639e30ee27d201d0545197e4a51fab0a29bd1c5ba33df087aa",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2002.jpg",
+      "size": 37501,
+      "sha256": "bd1ac78d688bc9151b6c8dc3364943cf94c89d3e4d5683795e5cd92327e080d6",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2003-detail.jpg",
+      "size": 42032,
+      "sha256": "b195338da882ce5d97501775d3f8791cbb0c39a34bcaf629badcf5b13dcdf8f5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2003.jpg",
+      "size": 33351,
+      "sha256": "f5a1f46b7a46be52211ffa2d7a79c3f59c841a18f420e6a0cb3369ae5ae73a70",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2004-detail.jpg",
+      "size": 49912,
+      "sha256": "47948510eeed92cbb35beb678fd837d24580197bd8f53f46629a6195d28d8637",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2004.jpg",
+      "size": 39169,
+      "sha256": "f68a8e246178ac326db135112f9736593000533373749be5d0a63721997232e3",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2005-detail.jpg",
+      "size": 45717,
+      "sha256": "da0045a3515e2e39c2bb51bcf24becc3726e3a7f6bf29328721a81951f732374",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2005.jpg",
+      "size": 37263,
+      "sha256": "16fc3617f195c8678036dac739c8e77dffb019aef4d38a29cb38e046686cfcc3",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2006-detail.jpg",
+      "size": 50183,
+      "sha256": "78e9ecde9650adf5a3b3db1211e33bbc26db7eb7930eac73f68a31071bb7cd83",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2006.jpg",
+      "size": 39619,
+      "sha256": "836a0206a47b9da678fe27003ea725b2b250a6ebc740e46f8f8ad15cef740539",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2007-detail.jpg",
+      "size": 43403,
+      "sha256": "f9521f062c4d67840ff216c2966f7341d10aa6d061f861248390f59741c9bb1d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2007.jpg",
+      "size": 34798,
+      "sha256": "dc06bfcb73ed582fd0d622bffe580f6314802e8de0a012f06bae6ed0c5b5e01c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2008-detail.jpg",
+      "size": 45972,
+      "sha256": "694b11e9201ac80d2e8715b66fb580ed55566e3a9ba26958de08520d34ba96ca",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2008.jpg",
+      "size": 35060,
+      "sha256": "e0a6ad26a9be118249fce016b6ec161eb4a6203d1918136a7e646fff87127a06",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2009-detail.jpg",
+      "size": 43617,
+      "sha256": "fb0d55a106724961872b05bd5dc4c260dab8b4be77a061cd87012c512cf78cf2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2009.jpg",
+      "size": 35002,
+      "sha256": "3194c28ef3122cd64e5a2d192931c5dd56cdf0027da6adfad174be9ffe092651",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2010-detail.jpg",
+      "size": 49964,
+      "sha256": "858a8180d45e2cccc2552db593676161f66bc8da165f0566fffde6a3c8589abf",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2010.jpg",
+      "size": 39477,
+      "sha256": "a4a1e81a0c4335951c461f1164133f7d5e04f2b25d15e2d7a5d56504740177c9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2011-detail.jpg",
+      "size": 69985,
+      "sha256": "4413ff2a007ad6092a354add4414e5bd587cabb062a6da512921e58dbd9be513",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2011.jpg",
+      "size": 51762,
+      "sha256": "9d878bdde82f0fbb15cf4c4b92281ac279e531c8501290fb2b07a5dfd3ee2cff",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2012-detail.jpg",
+      "size": 70549,
+      "sha256": "598947e2c1f2238f1cb4c8657500656cf8da8b3c05ad29d851f5c5bbc6dc4048",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2012.jpg",
+      "size": 51725,
+      "sha256": "e759be9c7a64b0d20ed5c200a89149469702f2ecd1014bf878d2f479754d7761",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2013-detail.jpg",
+      "size": 48977,
+      "sha256": "8de0260ecdd20ee12ef3e87f63e909f0207f662c911d0897765be18d039222c0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/knobs-2013.jpg",
+      "size": 42099,
+      "sha256": "e83a2ae0ca79f56e2c45050e95ed18ae8ee92af1dfbb406520914676f67b8368",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/profile-handles-dh-1001.jpg",
+      "size": 68786,
+      "sha256": "eace9f9a2bb8c27f54ab124e5eff250d17675dcdc98dbb3c4408a1fdda3e3949",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/profile-handles-dh-1002.jpg",
+      "size": 70266,
+      "sha256": "d1ff19bf32743275134fd8380baad55c688af880a1821c6a7427dbd00a011ab5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/profile-handles-dh-1003.jpg",
+      "size": 68802,
+      "sha256": "8362ec0cc2c9574614385f5db2289569574bca027c677020ee7c4ddf330a1548",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1201-detail.jpg",
+      "size": 52024,
+      "sha256": "1204aacecd388e75beebda9c0b056ff85a6b9f0f9d3f31aba3a9b8888d266807",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1201.jpg",
+      "size": 59511,
+      "sha256": "81c30f3d1c4261673b914fab54c90ec191c5b95f807ea562e979113101f395da",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1203-detail.jpg",
+      "size": 46270,
+      "sha256": "01b948a9752c2a3e5742032d04e22d7a36896eda76a594d0cae83807171acc05",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1203.jpg",
+      "size": 51900,
+      "sha256": "02bdd0cd98fcbf4de6ae4219cccdd3b1f8e6e446ad243a710e65b7e794a2d105",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1204-detail.jpg",
+      "size": 42997,
+      "sha256": "2eafe43414d7ab0e411852facefc107d21c2f0ca7ad9d412945cee110d51fcd4",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1204.jpg",
+      "size": 46170,
+      "sha256": "38beac55ccad32fae24b841bac7ee6345c8b19672c0b0151b55630df13e55c50",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1208-detail.jpg",
+      "size": 41191,
+      "sha256": "87c75b7532a516042c3f3389b5813e3e61e3e2e7324e35c9884d01ed32e0fd0a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1208.jpg",
+      "size": 46825,
+      "sha256": "b9bbc168dd49a44f53a335bc788f3216820958c1a42dd891208882b625e1cc30",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1210-detail.jpg",
+      "size": 52816,
+      "sha256": "3bac5f0948b905de90a958f50a0c6a39d3c35f51cac470291095df11a88c439f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1210.jpg",
+      "size": 54853,
+      "sha256": "51cc732816c3cf76cd2738419443cda4446bf9b3b376795121f6ac876090d97e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1214-detail.jpg",
+      "size": 39998,
+      "sha256": "bc035552e69abe33f9337ef99909495f802b685f7916b99bec798d38b35ec228",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1214.jpg",
+      "size": 44292,
+      "sha256": "e029d2bb88e95d8d7697581b6687e89b7f067e71f6dff1040424523b817f0d67",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1217-detail.jpg",
+      "size": 47128,
+      "sha256": "30812d5bbd657321310efb9801ce866f97fd1bf3d18a85a78171c0a0f178f08a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1217.jpg",
+      "size": 50221,
+      "sha256": "f07ccf1d34576d1925ad90b6131bf0e381b097d132d19b387f72e55f99280cd9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1219-detail.jpg",
+      "size": 45514,
+      "sha256": "23c466d5250892372424dea08597360051ed2c887390e62e625805d8883942fb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1219.jpg",
+      "size": 48761,
+      "sha256": "e9cffaaa511fa5c5cf06f2e07a5ce8eecba6f7ed8cd009ba0e9b9443bee8aa70",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1221-detail.jpg",
+      "size": 45016,
+      "sha256": "46175550bf66aba3e7c745e588752b22f6f1c790574f055efd24bcff83a3ba2e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1221.jpg",
+      "size": 52293,
+      "sha256": "83a25b16e5a15d9cff464b4ede167b09a0e78093969765ef13b45b66c051e04a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1222-detail.jpg",
+      "size": 45539,
+      "sha256": "cd1d095280262e3604e381181e511ec427e523b851c0ac154002b19678374271",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1222.jpg",
+      "size": 51856,
+      "sha256": "b0c5e09feefc4e573f23c5bb9a0d374558516b1e77655c21b756e53b23f24563",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1223-detail.jpg",
+      "size": 47166,
+      "sha256": "a4f4ad9d4a2e5e091025c480273e13783327448c983fab0aa4fc67e55f15c35a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1223.jpg",
+      "size": 52417,
+      "sha256": "843c2297fba669f8a9828fd027027cff880ffb8a9c1aad8890345c6a73979989",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1224-detail.jpg",
+      "size": 44602,
+      "sha256": "d03f63e80f82b2766fdca873dfb068c1a39547c7ceaea61fbbbece2b3f831b5b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1224.jpg",
+      "size": 52993,
+      "sha256": "d0f1efee6122738bb2e52705e61140283620f292c5b87f20b2a8353f10606fb5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1226-detail.jpg",
+      "size": 54196,
+      "sha256": "339a186565ab2cfdbd9be57c00eb617b1a179e4d3689d2efeb4cf80facd447fb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1226.jpg",
+      "size": 59410,
+      "sha256": "a846d349fb91493427adbb6139792f492c3b4210b3c132cb8c54dcd8eda03527",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1227-detail.jpg",
+      "size": 53247,
+      "sha256": "be1d2bf91de5123dddff21c2b4f4f724df6627c631b68ecb377c9b14addabd25",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1227.jpg",
+      "size": 57162,
+      "sha256": "60e4bbb5118192b2b1d18201a0e848e470d2534291bd73aeb0978b8d5454f5cd",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1228-detail.jpg",
+      "size": 59541,
+      "sha256": "016b9b85380b43f92f21b798bd18b4958a783e03acd37ec609a8b338fad2feeb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1228.jpg",
+      "size": 64730,
+      "sha256": "d573771f5dff0b2475ac37a67d5c198f687398dc1f0c2cecfa771a98ee48b737",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1229-detail.jpg",
+      "size": 55539,
+      "sha256": "2723dffe48b416f54d8342fda3b52f46daee96cc08bc072b046fd18273ed7c21",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1229.jpg",
+      "size": 57835,
+      "sha256": "69ab3b6db05f0155774a18aee389314990fb12a14663ea2a7ccaee8c61dd4714",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1231-detail.jpg",
+      "size": 46503,
+      "sha256": "59c9d98d8b3a01df918b0bd890165949c77f5771ab91ee6afcbfe3183260a142",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1231.jpg",
+      "size": 51152,
+      "sha256": "4839fdca23bd469b7e9b8e9475382884d2b3a66b20bb949911fc4f9378c4aeb3",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1232-detail.jpg",
+      "size": 53767,
+      "sha256": "74f00fee804e63c944b50bf74b94e9ba9322dc743835e817a696dfbe71d71767",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1232.jpg",
+      "size": 60049,
+      "sha256": "d14bf0068ecfcb36bd4e1cd9c3235114fd644d03a2bf473403fdac1b0fc18356",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1233-detail.jpg",
+      "size": 46247,
+      "sha256": "84632501a0647d1639480238904cda8cb1893b8d8c196fa3cc9847ed9cbe2fe8",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1233.jpg",
+      "size": 51129,
+      "sha256": "0789b20143f0acad60433e64968a5209e2e0cb1aa335f3bc212de2240efbc31e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1235-detail.jpg",
+      "size": 50852,
+      "sha256": "c0c65ab973dd2c2d5ece065925be8b1e6852f3a22c9b85db47fc1fe6451b7e8c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1235.jpg",
+      "size": 52977,
+      "sha256": "255093d8512d01adddec43fad9b34ef946b8be9b3153aa1b64993ca2e2119678",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1236-detail.jpg",
+      "size": 54034,
+      "sha256": "2055ebc6a4a5f739f2d41e48fa162f99c95d5ad501cbc9581cdd382554eb0e3c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1236.jpg",
+      "size": 56956,
+      "sha256": "088ba9daee5773e4cf3071b83aeb820b4fe2bd41cfdac3e41ae7b1712e4acdfb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1237-detail.jpg",
+      "size": 55567,
+      "sha256": "dcc03964c1fe9aac7cbf631b42ecc96fc9d647cc4438baadec9d6f7dfb278a07",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1237.jpg",
+      "size": 63044,
+      "sha256": "5c9c22bec25988f3c45aef770af0bce0d2fb253c868bb68a63a5fc9c382128ae",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1238-detail.jpg",
+      "size": 61839,
+      "sha256": "5e54f32209120ad2b5e5be29967e03a80fa68f118ecdb558834b0bf8a4ebf2ee",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1238.jpg",
+      "size": 66753,
+      "sha256": "85cc46f738b7068ece028804d2b1e91b142c74155c925af4fae039b576f689a5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1239-detail.jpg",
+      "size": 59131,
+      "sha256": "df7d58fa55195f9a258a03170e99e7700adc5fbbb5dddc9313a23e083d5788f0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1239.jpg",
+      "size": 67237,
+      "sha256": "5a4ff4fc02accba7efb9e6e4cc3ef5082fa61268477cbecbefffb6e5697f05cb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1240-detail.jpg",
+      "size": 57095,
+      "sha256": "a6335f17143d32da1945447c4912ba5dff5d0f25d8f8029daedc28a6bd5e4da0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1240.jpg",
+      "size": 64638,
+      "sha256": "0a9293369c025a2546c2566de5e6eb8e37db496a37cc21151c7e0c0e400c5aca",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1241-detail.jpg",
+      "size": 54257,
+      "sha256": "2bac1cc9a77a7b04fa9946aacd53748682aeef73fe055fb37c2b7d9478ce5931",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1241.jpg",
+      "size": 61031,
+      "sha256": "3e1cca50cf67a67ebe92e108da294b7eff96fb3f32d3b6913ec6ffd6d5dd5a6d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1242-detail.jpg",
+      "size": 47694,
+      "sha256": "6ef4f80b0a9d1d40a2e17816d8f0c46edc589cf2443fba960ae3c25de7ceef96",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1242.jpg",
+      "size": 53094,
+      "sha256": "b9636ce0e7cb5dad6616481682a40e3ec99cc788af27429b741732a8b9831a78",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1243-detail.jpg",
+      "size": 57376,
+      "sha256": "7025adc0c7f40761323732f6fa5454ae534efafe74861f792fc9bf565d153688",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1243.jpg",
+      "size": 63623,
+      "sha256": "56e31a0a011cff942608a3d5e6ce9b3d595e736201dcc59ec566ececb59be3cc",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1244-detail.jpg",
+      "size": 50130,
+      "sha256": "39bc9dc6c741a9550d9fc3d515202e6037e0ac6fa9f9da1a8ae02b18ac51254b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1244.jpg",
+      "size": 54987,
+      "sha256": "756608367eb2e04a0cb92681a629f258749926413c523fef1ac8a77d0fc23a0f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1245-detail.jpg",
+      "size": 42601,
+      "sha256": "e5bc9e8081e938ea3306c59bcbcabbee7d45c996c3dac11f1ec5137987141484",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1245.jpg",
+      "size": 46933,
+      "sha256": "897fc251d67da1b9036c40b67a3180f41f835877e542a217899ee14a564027c2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1246-detail.jpg",
+      "size": 42239,
+      "sha256": "e8e9682c2473ac095218b9d89f027baba1319c6acdc70d419b9314f9d56fb4e5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1246.jpg",
+      "size": 46492,
+      "sha256": "ecb26c81024e84a323a5469689aa349b57ea027e97eda48625fedf10e0f41dc2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1247-detail.jpg",
+      "size": 44268,
+      "sha256": "979b18c4ebdfcc19494ac6f973b55b90b19fbf1fa12e201ebc31d9ec4c9b3918",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1247.jpg",
+      "size": 49479,
+      "sha256": "069fa5df547c49ec6dbdf708a8310116ae66a33dadd35c76c47ae42b0d047420",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1249-detail.jpg",
+      "size": 55761,
+      "sha256": "515de22f2afe6c1a616a35bd52a550ebdc800ea3db2de841fddfd59b59690bdb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1249.jpg",
+      "size": 60678,
+      "sha256": "6e31dd58b23f7a1f6d403f8065beda31e13f6d53d1ac4a9809dd99e1b40de059",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1250-detail.jpg",
+      "size": 63271,
+      "sha256": "071303408b221669721c33750a2baef40e95ec5b70dc9cf4eff65297c5e13667",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1250.jpg",
+      "size": 71370,
+      "sha256": "331c213011babc82d1556e8e0eafd73cd0ab9d23fe8ef3b598f7311a11ea8920",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1251-detail.jpg",
+      "size": 58334,
+      "sha256": "3419b0dca8b8d77e2c6973894ca4e3bfe1395103be89bcbc9dede89ce1d549d9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1251.jpg",
+      "size": 64263,
+      "sha256": "566dc7496274dec0ae5155284ff9d58f68dea9fc6907309051588a89f8801190",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1252-detail.jpg",
+      "size": 58379,
+      "sha256": "85c3bbfc0088b1798af2a8fb27739f85ea588ddef60b070056e736f5bea7759d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1252.jpg",
+      "size": 67629,
+      "sha256": "2fae914ba6fc79f9bc3e4e384fd292ddf95f3bdd4c9b6108716b6ec46168bc2d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1253-detail.jpg",
+      "size": 57032,
+      "sha256": "f276b9fe3fe828ea0651c2d7ef649fad2c2d36942b31f5f2861ede38682f588d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1253.jpg",
+      "size": 61853,
+      "sha256": "8653e23c442b29faf09a14f0de6ee68437f680b1370bcab69556e4a6c13abcf7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1254-detail.jpg",
+      "size": 39806,
+      "sha256": "e235add3754a5595f42dc857906e21b39d128352c3ebf4c94ffaa0a875e4e782",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1254.jpg",
+      "size": 43223,
+      "sha256": "8a493ee1e4b2d7725714abc6469c6a76cd599f5f2ed29516ebd1d98950a515fb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1255-detail.jpg",
+      "size": 39891,
+      "sha256": "ec148ca71624220197e5f9480b5cde59ccb1d09e8ba2aa9db04543eb9f67196e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1255.jpg",
+      "size": 43889,
+      "sha256": "8be2896a92c138ddf2260be561df032d5e072391392ff02436996c557d82a2bf",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1256-detail.jpg",
+      "size": 41249,
+      "sha256": "30c52a7968a1f9135293527986330acbae716a9cc624ec577fad87a0bcfd9542",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1256.jpg",
+      "size": 45828,
+      "sha256": "c44886cfccce4a62eb28368466cd9a3b237e247b7d9dc0041a178103d74e42c8",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1257-detail.jpg",
+      "size": 32418,
+      "sha256": "c077fe527e2b8830fdaef32c095e872f2e668aef43feda18a89c03aae39f34dd",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1257.jpg",
+      "size": 34590,
+      "sha256": "63683b01501665f180dabcf28ee1e98d07b835c225eac1e939c7cadeb6a119b0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1262-detail.jpg",
+      "size": 50740,
+      "sha256": "78bbc3e2fcf1b7481010fd4477c12aadace67f9eb2667c609e436f92dbed56c9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1262.jpg",
+      "size": 58137,
+      "sha256": "9691c2efd95510c0c2ae4d6874c4eac326e5fd7ed524581fa441ecab81390647",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1263-detail.jpg",
+      "size": 42711,
+      "sha256": "f36b565652d9e3982a4c45e0e7d3e5bf96c3c243399e3b3d0ea6945ee694ebc9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1263.jpg",
+      "size": 41754,
+      "sha256": "3af7198f220b0704539d7b9e5fabc807804ed6bd0cf11ccf31b1cfc3cd283b12",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1264-detail.jpg",
+      "size": 43971,
+      "sha256": "a903f7e218b0e21ee94a33572041960c109109191dc0308977ca7e7e0cee8ae8",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1264.jpg",
+      "size": 49260,
+      "sha256": "081de84b3cf1890c9b2fd9897c9bda4084c9662bcbfe6ef854ace0ec4387b198",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1265-detail.jpg",
+      "size": 45666,
+      "sha256": "ed35fdb9a8588c463fc9182ce109821f03d2ae13cf5d84a53bcf4a11f414aff7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1265.jpg",
+      "size": 45768,
+      "sha256": "d2f2c7aeb21449fae7a71911eed9c8b428e4a149e5472d2d96b7eff90d760af0",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1266-detail.jpg",
+      "size": 57062,
+      "sha256": "1df519b7c02ab27288621f84fded186468c06b828e20a27f262712f1f4a4c6c6",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1266.jpg",
+      "size": 65649,
+      "sha256": "1fbefd8d71032ece97cc0b58433dda3e0adfc05780669479f893f6c3580a3788",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1267-detail.jpg",
+      "size": 41320,
+      "sha256": "64ebd89a68a62d412ce445746ba2f2cdc273c0b016a908f8c8b715a6b9bec7c5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1267.jpg",
+      "size": 40322,
+      "sha256": "12e9b2e3a13196f32047cebd8fb479b4dffd5368f800a0c974e5221d2fe427bb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1268-detail.jpg",
+      "size": 44299,
+      "sha256": "42aec1011dfddd7baf01877f51fb836a095cf6d956914960059a2c045a0a139b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1268.jpg",
+      "size": 50382,
+      "sha256": "e270ea1ffefcf77fff6d77e6aecd3f1b59161cd48bfa1d6b7a7fbf5c8bdd4e42",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1269-detail.jpg",
+      "size": 47402,
+      "sha256": "0761825adeea8d4d77c26de126515a7df131aa05dc74f8926c8d127b38d74ce1",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1269.jpg",
+      "size": 50880,
+      "sha256": "c70db4db86200d0dde959c0059abb1d5b37eee897c7b39c55971c42d97b88644",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1270-detail.jpg",
+      "size": 44188,
+      "sha256": "7c9b1ca51ad4051ef2ac3f94542994167b5cf61c123e2e7841ef8756a616b2ef",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1270.jpg",
+      "size": 49228,
+      "sha256": "22c39c79f35b8e0f391356a6ae6e31f60415855fe0fe60dcaadc8dc6fc562130",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1271-detail.jpg",
+      "size": 44097,
+      "sha256": "902fa19b33710a45745fa1805ac85fefecf4045f123838e95e2bcfcb281903bd",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1271.jpg",
+      "size": 44868,
+      "sha256": "9b479d65dd04ea1da3bc4d494cb8483f80659ce113caec3f9d42525410c9e82f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1272-detail.jpg",
+      "size": 46304,
+      "sha256": "ecd645df8d84835fd3fdada2c63477b19e8e3fcde03253e098725f12601b7424",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1272.jpg",
+      "size": 56202,
+      "sha256": "77f9cfbae46b37fff1507b4d39c601601854c9663a7aae1d139ed70b036e69f5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1273-detail.jpg",
+      "size": 45651,
+      "sha256": "565ea04128d3d5003b53a8d1791b87434ae35d42c250b8e103657b35b5296a76",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1273.jpg",
+      "size": 52633,
+      "sha256": "7b9c9fe5b145fe49362a3ff9006e2844ad7ea85a33c5ad5c1897f3bdbbe43e51",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1274-detail.jpg",
+      "size": 42002,
+      "sha256": "a9fdcb8c245c6facccff86b02d411ad2a54566073ac9c0bed706aee230aae542",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1274.jpg",
+      "size": 46703,
+      "sha256": "20b32fd89ed11569942269364651db7b48148d82981c7ca89c202c96393af109",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1501-detail.jpg",
+      "size": 71888,
+      "sha256": "95052fe2d1370080d11331a7d7a01a3049cc5253d0ea39e22f3c804fa7e9ace9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1501.jpg",
+      "size": 51656,
+      "sha256": "998489c45c0c0fde675a7c903986391f2305e040d2e9308234cafd32d8dc0906",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1502-detail.jpg",
+      "size": 68628,
+      "sha256": "da25061ef16580885a867ae34995649c73038decee3df8a5f94e095dbc1cb3cd",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1502.jpg",
+      "size": 57500,
+      "sha256": "92bc5293c4c59d192096e63ac901da713f7cbce193ca5f5361e3c19e0438731c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1503-detail.jpg",
+      "size": 45884,
+      "sha256": "1a5a5245a8ba643278478761f1bff186e6ecf7518d9ee397299fb9929eb5a27d",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1503.jpg",
+      "size": 46295,
+      "sha256": "c2b83774c910308bc74a64e412b44d3a6ecfbabd7c10b7ada642c5d102ce9121",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1504-detail.jpg",
+      "size": 50193,
+      "sha256": "af7415398c30619818e69868cfc1a9dd7a714668009607a7fa37bdce28782f7a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1504.jpg",
+      "size": 51510,
+      "sha256": "da7bb40c8a96221c08e02876d0ca37c775c00204fef2fcb661f0471f807ac63b",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1505-detail.jpg",
+      "size": 42009,
+      "sha256": "803d285d3779954a8b11604da20209fc53c788604b90413aa849c7273ecf5259",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1505.jpg",
+      "size": 47639,
+      "sha256": "d997c4191e07218391c6d930490ad65b38fffd71d19b7539abd3e443bb1cd973",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1506-detail.jpg",
+      "size": 53882,
+      "sha256": "72e23a1f67839c86f66ac9c5d64db352b3dac06327dcaa82697840241e2e8f38",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1506.jpg",
+      "size": 54353,
+      "sha256": "7482c3ee6e389e8008bade8f9e72ffb0ded038b1bd0945d7e44c739c0ca5a017",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1507-detail.jpg",
+      "size": 49253,
+      "sha256": "fa162faf6738370a75e2ebd81bb3a0a8eec413d4e217c7565bc7dff5670c0643",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1507.jpg",
+      "size": 52494,
+      "sha256": "57e5289f9596c4562b210f0a9b31f1836e156afeffa037c78e1f79328fd99b78",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1508-detail.jpg",
+      "size": 49474,
+      "sha256": "dfdac276346080cbc34805186dd589e5278ca63b4c513aa8a16e93751f27b918",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1508.jpg",
+      "size": 51894,
+      "sha256": "488bbe3d7e1653973fe9682999834d4f29b4ee420a42923b490d8f324c69be50",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1509-detail.jpg",
+      "size": 53542,
+      "sha256": "ddbd60d085261b5f32997ebc85e11127b47259441c94145537b0d88135a5f84a",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1509.jpg",
+      "size": 54732,
+      "sha256": "8c7e48c5c2590e7e318ae6e5b726c62eed52534f46c42dbb3c9e12f7367afaf2",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1510-detail.jpg",
+      "size": 45226,
+      "sha256": "33921713b27bbfc80445b91dc8ed43a7c7dd1b845fb90b3e0bef934ab0dd59a5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1510.jpg",
+      "size": 43622,
+      "sha256": "1cba5fbe6635d5f148a29c57da3ccb5e3c33b816d7228931f78d500bc97995be",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1511-detail.jpg",
+      "size": 36574,
+      "sha256": "a3ea190f1d2eab82e65892eb98ec67ebf10d346ac93e890f64842f808d4c5a0e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1511.jpg",
+      "size": 40126,
+      "sha256": "e4421c8377e4a19b20bbbf279638b3651ec0a16e6c0b01c67118e4dbbdb8cbfb",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1512-detail.jpg",
+      "size": 52794,
+      "sha256": "69e940aab1569d1768914b09c7463b91db85141e83779b10de455ee3bde3ecff",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1512.jpg",
+      "size": 52853,
+      "sha256": "e3d5718c77f75890d64a7addafb24a548365d942cd8c80644ea2d360c1cbf5e9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1513-detail.jpg",
+      "size": 51528,
+      "sha256": "0a79bffa628956406f637abf6289d0eaa7ae7122366a179fba3d717811910404",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1513.jpg",
+      "size": 52516,
+      "sha256": "dcebc565ad3f1ab2a71283a8ea4a0f1495e64681007a2b584f29377e80861ef9",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1514-detail.jpg",
+      "size": 43648,
+      "sha256": "428089ab005967c2b4be63d68d3269ea0c6f1addcb014a378e49223820a0e8c5",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1514.jpg",
+      "size": 46276,
+      "sha256": "4a5d9a6dee4c4aab0bdbc5b37d323d597312bfe12a88925f47d412302a4b0bd7",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1515-detail.jpg",
+      "size": 43096,
+      "sha256": "25086c77f6413732b8761254190905a12624f4f1b83a07bde0eb0c6b7c732a45",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1515.jpg",
+      "size": 46308,
+      "sha256": "868df7bb35af668286514a9a985df9ad438ac2e6340898bfe307d0f1d6a99845",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1516-detail.jpg",
+      "size": 39496,
+      "sha256": "dfe3f9fc94912eeb01dcf6ea8a9a08072f64f92e721c76dc1b64334a376343b8",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1516.jpg",
+      "size": 38458,
+      "sha256": "10cfe98765b7e9f63119ae7d3f76b66a8874eb641edc35f55cf2c2286871d83c",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1517-detail.jpg",
+      "size": 46087,
+      "sha256": "9fe70f1b95af9e7bb8b43be095e5da3fe235582c91cb46a7127b1590556c4c40",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1517.jpg",
+      "size": 56068,
+      "sha256": "b6b5851daae48bf53eadf532db25f083b594059ca3130f69931b13d581e8d97f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1518-detail.jpg",
+      "size": 41752,
+      "sha256": "fb0b4c66f8fef34b4700c51e9fe235f4d8aea71007682b43dfed2c941e675182",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1518.jpg",
+      "size": 47949,
+      "sha256": "e69dbe7a5f4b7183c6cb332ead11712362f01a08fed033d786c6d0acb9b90586",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1519-detail.jpg",
+      "size": 39647,
+      "sha256": "f8afc8d1bba03143dd8e8d5568564a65bac576729b5d590885fde2a1cb54cc96",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1519.jpg",
+      "size": 40816,
+      "sha256": "6e1816e11d51dc141b2c7a3d4705d209effd2e930334cf90762d02216967b900",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1520-detail.jpg",
+      "size": 41961,
+      "sha256": "adb4272ccf21c464c697993337ea796de5fc2d2d81f5ccbb41617a83d109735e",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1520.jpg",
+      "size": 47370,
+      "sha256": "0c288fac057562bb73589f2e810cf7bcd13dcfed55343e277dd33e35efb44ebe",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1521-detail.jpg",
+      "size": 39749,
+      "sha256": "13f34d6846307a9119cd34e879ad9076f4d296424a49c2933fac182b0d85b860",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "assets/products/sofa-legs-1521.jpg",
+      "size": 39986,
+      "sha256": "6ce25c74c625a6d21fdc0681b107a90ff8285218bb3d8aa11fa872c549287d2f",
+      "type": "image/jpeg"
+    },
+    {
+      "objectPath": "documents/Door handle price list.pdf",
+      "size": 504192,
+      "sha256": "f2fc2cb278c2ebaed47a69d64262a4e118f6bbbf1e0b75d5b1b53b6861cb3d22",
+      "type": "application/pdf"
+    },
+    {
+      "objectPath": "documents/SOFA LEG (1).pdf",
+      "size": 1305298,
+      "sha256": "5f2922f75f21f231617280f9f658f6bd0067f640287989c6d70bb57e828deccf",
+      "type": "application/pdf"
+    },
+    {
+      "objectPath": "documents/door-handles-knobs.pdf",
+      "size": 14927080,
+      "sha256": "15218694a72254dd764b95f75c40cf7d9b6af875831f3d16ae8a5ec37fe3dcd1",
+      "type": "application/pdf"
+    },
+    {
+      "objectPath": "documents/profile handles.pdf",
+      "size": 1111958,
+      "sha256": "4694eb6deb111c66ed44b684b2156a31500eb64a996b1c13c9a91d07051646f8",
+      "type": "application/pdf"
+    },
+    {
+      "objectPath": "documents/sofa-legs.pdf",
+      "size": 16543659,
+      "sha256": "032e2f349ca0f4a9c1c24ffd609eefa5336b4ad9a0355f14b6d1d14987c5093b",
+      "type": "application/pdf"
+    }
+  ]
+}

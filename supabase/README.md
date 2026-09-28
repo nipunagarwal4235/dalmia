@@ -32,10 +32,41 @@ Public and signed-in app users can read the catalog but cannot change it.
 Use the Supabase dashboard or a trusted server to edit records.
 Never put a database password or service-role key in an app environment variable.
 
-Images and PDFs remain in the existing web assets.
-The database stores their paths and metadata.
-The mobile app uses bundled pictures for existing models and web URLs for new image paths.
+Supabase Storage serves 368 catalog images and five PDFs from the public `catalog-media` bucket.
+The database stores relative file paths and metadata.
+Both apps resolve these paths to the same bucket through their Supabase project URL.
+The mobile app stores downloaded pictures on the device and uses bundled originals if a download fails.
+Local source files remain available as backups and for offline builds.
 Likes remain on each device because neither app includes a shared sign-in flow.
+
+## Catalog media
+
+The Storage migration creates a public bucket with a 20 MiB limit for each file.
+It accepts JPEG images, PNG images, and PDFs.
+Public visitors can read files but cannot upload, replace, or delete them.
+Use the authenticated Supabase CLI or project dashboard to manage files.
+
+From the repository root, stage the source files and upload them to the linked project:
+
+```sh
+node scripts/catalog-media.mjs stage /private/tmp/dalmia-catalog-media
+npx --yes supabase@2.118.0 storage cp --recursive /private/tmp/dalmia-catalog-media/assets ss:///catalog-media/assets --linked --jobs 6 --cache-control max-age=86400 --experimental
+npx --yes supabase@2.118.0 storage cp --recursive /private/tmp/dalmia-catalog-media/documents ss:///catalog-media/documents --linked --jobs 2 --cache-control max-age=86400 --experimental
+node scripts/catalog-media.mjs verify
+```
+
+The final command downloads every public file and compares its bytes and content type with the local original.
+It writes the file sizes and SHA-256 hashes to `media-manifest.json` after all comparisons pass.
+A hash identifies file contents.
+Existing mobile installations need a new build to use the Storage image loader.
+
+After a web production build or mobile web export, run this command from the matching app folder:
+
+```sh
+DALMIA_TEST_LIVE_MEDIA=1 npm run test:browser -- media.spec.ts
+```
+
+These tests cover Storage images and PDF downloads on the website, plus image downloads and bundled fallback pictures in the mobile preview.
 
 ## Create the hosted database
 
@@ -95,7 +126,8 @@ After deployment, edit catalog records in Supabase so that both apps receive the
 Keep existing product IDs because saved products refer to them.
 Set a unique `position` value for each new record.
 Keep the generated `model` and `category` columns unchanged because PostgreSQL derives them from `data`.
-Upload new image files to the web assets before you reference their paths in the database.
+Upload new images to `catalog-media/assets/products/` before you reference their relative paths in the database.
+Use a new filename when replacing an image so that cached copies do not hide the change.
 
 The original JSON files remain the offline snapshot and initial import source.
 To regenerate the initial seed from those files, run this command from the repository root:

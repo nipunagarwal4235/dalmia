@@ -39,9 +39,11 @@ npm start -- --port 4175
 - `scripts/` contains the PDF extraction tools and document preparation script.
 - `tests/` contains data tests and browser tests.
 
-Next.js builds a separate page for every model. React handles search, filters, and saved products. Next.js serves and optimizes the product images.
+Next.js serves a separate page for every model. React handles search, filters, and saved products. Next.js serves and optimizes the product images.
 
 The application reads the shared Supabase catalog when its environment variables are set.
+Supabase Storage supplies catalog images, page previews, and PDF links.
+Next.js optimizes images from the configured project's `catalog-media` bucket.
 Without those variables, it uses the bundled JSON catalog.
 See [the database guide](../supabase/README.md) for setup and deployment.
 
@@ -164,4 +166,4 @@ npm test
 npm run build
 ```
 
-The site uses local files. It does not send document contents or search text to an external service.
+Supabase stores the public catalog and its media files. Search runs in the browser.

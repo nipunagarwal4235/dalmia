@@ -1,6 +1,6 @@
 import {useMemo,useRef,useEffect,useState} from 'react';
 import {Animated,PanResponder,Pressable,StyleSheet,Text,View,Platform,useWindowDimensions,AccessibilityInfo} from 'react-native';
-import {Image} from 'expo-image';
+import {CatalogImage} from './CatalogImage';
 import * as Haptics from 'expo-haptics';
 import {Icon} from './Icon';
 import {colors as c} from '../theme';
@@ -40,7 +40,7 @@ export function ProductCard({product:p,height,index,count,saved,onSave,onToggle,
   <Animated.View style={[styles.card,{transform:[{translateX:x},{rotate:rotation}]}]} {...pan.panHandlers}>
    <View style={styles.topline}><Text style={styles.category}>{p.category.toUpperCase()}</Text><Text style={styles.position}>{String(index+1).padStart(2,'0')} <Text style={styles.total}>/ {count}</Text></Text></View>
    <View style={[styles.imageArea,{minHeight:tiny?100:150}]}>
-    {productImage(p)?<Image testID={`image-${p.id}`} source={productImage(p)} style={styles.image} contentFit="contain" transition={120} recyclingKey={p.id} accessibilityLabel={`${p.category} model ${p.model}`}/>:<View style={styles.missing}><Icon name="image" color="#747474" size={38}/><Text style={styles.missingText}>No catalogue picture</Text><Text style={styles.missingSub}>Model {p.model}</Text></View>}
+    {productImage(p)?<CatalogImage product={p} testID={`image-${p.id}`} style={styles.image} contentFit="contain" transition={120} recyclingKey={p.id} accessibilityLabel={`${p.category} model ${p.model}`}/>:<View style={styles.missing}><Icon name="image" color="#747474" size={38}/><Text style={styles.missingText}>No catalogue picture</Text><Text style={styles.missingSub}>Model {p.model}</Text></View>}
     <View pointerEvents="none" style={styles.photoLabel}><Text style={styles.photoLabelText}>DALMIA / ORIGINAL CATALOGUE</Text></View>
     <Pressable onPress={onDetails} style={styles.expand} accessibilityRole="button" accessibilityLabel={`View details for ${p.model}`}><Icon name="info" size={22} color={c.ink}/></Pressable>
     {saved&&<View style={styles.savedBadge}><Icon name="heart" size={12} color={c.black} filled/><Text style={styles.savedBadgeText}>SAVED</Text></View>}
