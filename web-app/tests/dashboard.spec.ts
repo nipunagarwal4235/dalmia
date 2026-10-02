@@ -1,7 +1,7 @@
 import { test,expect } from '@playwright/test';
 test('search, unique model routes, source prices, and browser navigation',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('/');await expect(page.locator('#result-count')).toContainText('149 products');
+ await page.goto('/');await expect(page.locator('#result-count:visible')).toContainText('149 products');
  await page.getByRole('searchbox').fill('DH 1501');await expect(page.locator('.product-card')).toHaveCount(1);await expect(page.locator('.card-title')).toHaveText('DH-1501');
  await page.getByRole('searchbox').fill('1501');await expect(page.locator('.product-card')).toHaveCount(2);
  await page.getByRole('searchbox').fill('2605');await expect(page.locator('.product-card')).toHaveCount(1);
@@ -9,12 +9,12 @@ test('search, unique model routes, source prices, and browser navigation',async(
  await page.getByRole('link',{name:'View Door handles 2605',exact:true}).click();await expect(page).toHaveURL(/\/models\/door-handles-2605$/);await expect(page.locator('h1')).toHaveText('2605');await expect(page.locator('.source-price-table')).toContainText('5,755');await expect(page.locator('.notice')).toContainText('printed as 5755');
  await page.reload();await expect(page.locator('h1')).toHaveText('2605');await expect(page.locator('.detail-picture')).toHaveAttribute('href',/2605-individual\.png$/);
  await page.goBack();await expect(page.getByRole('searchbox')).toHaveValue('2605');
- await page.getByRole('searchbox').fill('unknown-model');await expect(page.locator('.empty h2')).toHaveText('No matching products');await page.getByRole('button',{name:'Clear search and filters'}).click();await expect(page.locator('#result-count')).toContainText('149 products');
+ await page.getByRole('searchbox').fill('unknown-model');await expect(page.locator('.empty h2')).toHaveText('No matching products');await page.getByRole('button',{name:'Clear search and filters'}).click();await expect(page.locator('#result-count:visible')).toContainText('149 products');
  expect(errors).toEqual([]);
 });
 test('filters, per-inch ranges, layouts, and CSV export',async({page})=>{
- await page.goto('/');await page.getByRole('button',{name:'Door handles 46',exact:true}).click();await expect(page.locator('#result-count')).toContainText('46 products');
- await page.locator('#size').selectOption('8 in');await expect(page.locator('#result-count')).not.toContainText('46 products');
+ await page.goto('/');await page.getByRole('button',{name:'Door handles 46',exact:true}).click();await expect(page.locator('#result-count:visible')).toContainText('46 products');
+ await page.locator('#size').selectOption('8 in');await expect(page.locator('#result-count:visible')).not.toContainText('46 products');
  await page.getByRole('button',{name:'List view',exact:true}).click();await expect(page.locator('#results')).toHaveClass(/list/);
  await page.getByRole('button',{name:'Reset filters',exact:true}).click();await page.locator('#size').selectOption('30 in');await expect(page.locator('.product-card')).toHaveCount(1);await expect(page.locator('.card-title')).toHaveText('DH-1001');
  await page.getByRole('button',{name:'Reset filters',exact:true}).click();await page.getByRole('searchbox').fill('1272');

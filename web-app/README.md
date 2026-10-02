@@ -46,6 +46,8 @@ Supabase Storage supplies catalog images, page previews, and PDF links.
 Next.js optimizes images from the configured project's `catalog-media` bucket. Vercel deployments exclude local product images and page previews.
 The Supabase project URL is required for catalog media. Images have no local fallback.
 See [the database guide](../supabase/README.md) for setup and deployment.
+Account pages use Supabase Auth. Staff and manufacturer permissions come from database rules.
+See [accounts and access](../supabase/AUTH.md) for role administration and the first super admin.
 
 ## Visual design
 
@@ -68,7 +70,9 @@ All matching products appear on one page, including saved products. Document sea
 
 Filters cover category, size, finish, and data availability. CSV export includes the current results and their source price rows.
 
-The browser stores the shortlist on this computer. Saved products from the previous dashboard remain available at the same local address.
+Signed-in users share their shortlist with the mobile app and other devices.
+The browser keeps account-specific offline changes and retries sync every 15 seconds while open.
+Guest saves stay on this computer. Use “Add device saves to account” to copy them into the signed-in account.
 
 ## Separate model images
 
@@ -167,3 +171,21 @@ npm run build
 ```
 
 Supabase stores the public catalog and its media files. Search runs in the browser.
+
+## Product management
+
+Staff use `/manage` to create products, edit prices, upload images, and remove products.
+Manufacturers can edit only their assigned products. Only staff can create or delete products.
+The database derives search text and price ranges from each saved record.
+The editor keeps blank prices and per-inch rates.
+Edited price rows retain their original document link and show an edit label.
+New rows show that the dashboard supplies their prices.
+
+Each upload uses a new filename. Save the product to publish an uploaded image.
+Removing a picture from a product keeps the original file in storage.
+Deleting a product removes it from saved collections. The confirmation requires its model name.
+The database rejects edits if another editor changes the product first.
+
+Product cards load their destination when selected. They do not prefetch all visible product pages.
+During rapid test navigation, Next.js can log “The destination stream closed early.” when the browser cancels a response.
+The catalog and account tests pass without browser page errors.

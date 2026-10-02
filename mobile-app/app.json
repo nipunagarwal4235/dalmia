@@ -2,7 +2,7 @@
   "expo": {
     "name": "Dalmia Hardware",
     "slug": "dalmia-mobile",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "dalmia",
@@ -13,7 +13,7 @@
     },
     "android": {
       "package": "com.dalmiahardware.catalog",
-      "versionCode": 1,
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#171717"
@@ -41,7 +41,14 @@
           "resizeMode": "contain",
           "backgroundColor": "#171717"
         }
-      ]
-    ]
+      ],
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "31ff604e-6612-4d29-b703-5045bb8a6269"
+      }
+    },
+    "owner": "nipunagarwal"
   }
 }

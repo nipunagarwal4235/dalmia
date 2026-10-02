@@ -9,6 +9,9 @@ It loads product pictures and PDF links from the same project's `catalog-media` 
 It caches pictures downloaded from Supabase. It does not include bundled product pictures or use a local image fallback.
 Existing installations need a new app build to receive this behavior.
 See [the database guide](../supabase/README.md) to connect both apps to the same project.
+The Account tab supports sign-in, registration, password recovery, profile changes, and sign-out.
+The native app stores sessions in Expo SecureStore.
+See [accounts and access](../supabase/AUTH.md) for role permissions and email delivery requirements.
 
 ## Browse and save
 
@@ -20,7 +23,10 @@ Swipe left to advance. A left swipe does not remove a saved product.
 
 Tap the heart to like or unlike a product. Open the Saved tab to browse your likes.
 
-The app stores likes on the device. It does not sync them with the website or another device.
+Signed-in users share saved products with the website and their other devices.
+The app stores offline changes and retries sync every 15 seconds while open.
+Each account has a separate local collection.
+Guest saves stay on the device. Use “Add device saves to account” after sign-in to copy them into the account.
 
 Search by model number, finish, or keyword. Use category filters to narrow the feed.
 
@@ -72,13 +78,15 @@ Git excludes `.credentials/`, native build folders, and APK files.
 
 ## Build with Expo EAS
 
-EAS is Expo's cloud build service. Sign in to Expo before using it.
+EAS is the Expo cloud build service. Sign in to Expo before using it.
+The app is linked to `@nipunagarwal/dalmia-mobile`.
+Expo stores the Android signing key for future updates.
+The repository `.easignore` limits build uploads to mobile source files.
 
 From `mobile-app`, run:
 
 ```sh
 npx eas-cli login
-npx eas-cli init
 npx eas-cli build --platform android --profile preview
 ```
 

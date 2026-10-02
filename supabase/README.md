@@ -28,8 +28,9 @@ The mobile app stores the downloaded catalog on the device for offline use.
 Before the first download, it uses the bundled catalog.
 
 Row-level security controls which records each database role can access.
-Public and signed-in app users can read the catalog but cannot change it.
-Use the Supabase dashboard or a trusted server to edit records.
+Public visitors can read the catalog but cannot change it.
+Signed-in users receive the write permissions assigned to their roles.
+See [accounts and access](AUTH.md) for the seven roles, first-admin setup, and email delivery configuration.
 Never put a database password or service-role key in an app environment variable.
 
 Supabase Storage serves 368 catalog images and five PDFs from the public `catalog-media` bucket.
@@ -37,13 +38,17 @@ The database stores relative file paths and metadata.
 Both apps resolve these paths to the same bucket through their Supabase project URL.
 The mobile app caches pictures downloaded from Supabase. Both apps require Supabase Storage for catalog images and have no local image fallback.
 Original image files remain in the web source folder for source comparisons and Storage uploads. Vercel deployments exclude these local images.
-Likes remain on each device because neither app includes a shared sign-in flow.
+The `saved_products` table stores each signed-in account's collection.
+Database policies prevent other accounts, including staff, from reading or changing that collection.
+Both apps keep separate account caches and retry offline changes.
 
 ## Catalog media
 
 The Storage migration creates a public bucket with a 20 MiB limit for each file.
 It accepts JPEG images, PNG images, and PDFs.
 Public visitors can read files but cannot upload, replace, or delete them.
+Authorized editors can upload new product images into folders for products that they can edit.
+Client accounts cannot replace or delete stored files.
 Use the authenticated Supabase CLI or project dashboard to manage files.
 
 From the repository root, stage the source files and upload them to the linked project:

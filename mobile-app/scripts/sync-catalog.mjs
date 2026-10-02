@@ -8,6 +8,7 @@ await mkdir(path.join(root,'src/data'),{recursive:true});
 const products=catalog.products.map(({catalogText,...product})=>product);
 await writeFile(path.join(root,'src/data/catalog.json'),JSON.stringify({products,documents:catalog.documents,priceNote:catalog.priceNote},null,2)+'\n');
 await copyFile(path.join(source,'lib/catalog-api.mjs'),path.join(root,'src/lib/catalog-api.mjs'));
+await copyFile(path.join(source,'lib/access.ts'),path.join(root,'src/access.ts'));
 await copyFile(path.join(source,'lib/media.mjs'),path.join(root,'src/lib/media.mjs'));
 await copyFile(path.join(source,'lib/pricing.mjs'),path.join(root,'src/lib/pricing.mjs'));
 await copyFile(path.join(source,'lib/types.ts'),path.join(root,'src/types.ts'));
@@ -15,3 +16,5 @@ const logo=await readFile(path.join(source,'public/assets/dalmia-wordmark.svg'),
 const mark=await readFile(path.join(source,'public/assets/dalmia-monogram.svg'),'utf8');
 await writeFile(path.join(root,'src/data/brand.ts'),`// Original vector artwork from the supplied Dalmia brochure.\nexport const wordmark=${JSON.stringify(logo)};\nexport const monogram=${JSON.stringify(mark)};\n`);
 console.log(`Copied ${products.length} catalog records. Images load from Supabase Storage.`);
+
+for (const name of ['saved-store.mjs','use-saved-products.ts']) await copyFile(path.join(source,'lib',name),path.join(root,'src/lib',name));
