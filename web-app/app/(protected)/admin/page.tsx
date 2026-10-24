@@ -1,6 +1,6 @@
-import {requireAccount} from '../../lib/supabase/access';
-import {createClient} from '../../lib/supabase/server';
-import {AccessManager} from '../../components/access-manager';
+import {requireAccount} from '../../../lib/supabase/access';
+import {createClient} from '../../../lib/supabase/server';
+import {AccessManager} from '../../../components/access-manager';
 export default async function AdminPage() {
   const {access}=await requireAccount('users.manage'); const client=await createClient();
   const results=await Promise.all([

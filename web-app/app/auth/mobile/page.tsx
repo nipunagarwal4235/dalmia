@@ -1,6 +1,7 @@
 'use client';
 import {useEffect,useState} from 'react';
 import {useRouter} from 'next/navigation';
+import {AuthShell} from '../../../components/auth-shell';
 import {createClient} from '../../../lib/supabase/client';
 export default function MobileConfirmation() {
   const router=useRouter();const [message,setMessage]=useState('Confirming your account…');
@@ -15,5 +16,5 @@ export default function MobileConfirmation() {
       router.replace(recovery?'/account/password':'/account');router.refresh();
     });
   },[router]);
-  return <section className="auth-panel"><h1>Confirm your account</h1><p role="status">{message}</p></section>;
+  return <AuthShell><section className="auth-panel"><h1>Confirm your account</h1><p role="status">{message}</p></section></AuthShell>;
 }

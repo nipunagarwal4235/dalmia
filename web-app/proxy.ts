@@ -13,8 +13,17 @@ export async function proxy(request:NextRequest) {
       },
     },
   });
-  await client.auth.getClaims();
+  const {data, error} = await client.auth.getUser();
+  const publicPaths = ['/login', '/signup', '/forgot-password', '/privacy', '/auth/callback', '/auth/mobile'];
+  if (!publicPaths.includes(request.nextUrl.pathname) && (error || !data.user)) {
+    const login = new URL('/login', request.url);
+    login.searchParams.set('next', request.nextUrl.pathname + request.nextUrl.search);
+    const redirect = NextResponse.redirect(login);
+    response.cookies.getAll().forEach(cookie => redirect.cookies.set(cookie));
+    redirect.headers.set('Cache-Control', 'private, no-store');
+    return redirect;
+  }
   response.headers.set('Cache-Control','private, no-store');
   return response;
 }
-export const config = {matcher:['/((?!_next/static|_next/image|favicon.ico|assets/|documents/.*\\.pdf$).*)']};
+export const config = {matcher:['/((?!_next/static/|favicon\\.ico$|assets/(?:favicon|dalmia-monogram|dalmia-wordmark)\\.svg$).*)']};

@@ -1,4 +1,26 @@
 import { test,expect } from '@playwright/test';
+import {readFile} from 'node:fs/promises';
+import {createClient} from '@supabase/supabase-js';
+
+test.beforeEach(async ({page}, testInfo) => {
+ test.skip(process.env.DALMIA_TEST_LIVE_AUTH !== '1', 'Requires temporary accounts for the login wall.');
+ const accounts = JSON.parse(await readFile('/private/tmp/dalmia-auth-fixtures.json', 'utf8'));
+ const account = accounts.find((entry:{role:string}) => entry.role === (testInfo.project.name === 'mobile' ? 'dealer' : 'wholesaler'));
+ if (testInfo.title === 'shortlist survives navigation and reload') {
+  const env = Object.fromEntries((await readFile('.env.local', 'utf8')).split('\n').filter(line => line.includes('=')).map(line => [line.slice(0, line.indexOf('=')), line.slice(line.indexOf('=') + 1).trim()]));
+  const client = createClient(env.NEXT_PUBLIC_SUPABASE_URL, env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY, {auth:{persistSession:false,autoRefreshToken:false}});
+  const login = await client.auth.signInWithPassword({email:account.email,password:account.password});
+  if (login.error) throw login.error;
+  const reset = await client.rpc('set_saved_product', {product:'door-handles-1701',saved:false});
+  if (reset.error) throw reset.error;
+  await client.auth.signOut();
+ }
+ await page.goto('/login');
+ await page.getByLabel('Email', {exact:true}).fill(account.email);
+ await page.getByLabel('Password', {exact:true}).fill(account.password);
+ await page.getByRole('button', {name:'Sign in', exact:true}).click();
+ await expect(page).toHaveURL(/\/$/);
+});
 test('search, unique model routes, source prices, and browser navigation',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');await expect(page.locator('#result-count:visible')).toContainText('149 products');
@@ -24,15 +46,15 @@ test('shortlist survives navigation and reload',async({page})=>{
  await page.goto('/?q=1701');await page.getByRole('button',{name:'Save 1701 Door handles to shortlist',exact:true}).click();await expect(page.locator('#saved-count')).toHaveText('1');
  await page.getByRole('link',{name:'View Door handles 1701',exact:true}).click();await expect(page.getByRole('button',{name:'Saved to shortlist',exact:true})).toBeVisible();
  await page.reload();await expect(page.getByRole('button',{name:'Saved to shortlist',exact:true})).toBeVisible();
- await page.getByRole('link',{name:'Shortlist',exact:true}).click();await expect(page.locator('.product-card')).toHaveCount(1);await page.getByRole('button',{name:'Remove 1701 Door handles from shortlist'}).click();await expect(page.locator('.empty h2')).toHaveText('Keep your favorites close.');
+ await page.getByRole('link',{name:'Shortlist',exact:true}).click();await expect(page.locator('.product-card')).toHaveCount(1);const removed=page.waitForResponse(response=>response.url().endsWith('/rpc/set_saved_product')&&response.request().postDataJSON()?.saved===false);await page.getByRole('button',{name:'Remove 1701 Door handles from shortlist'}).click();await expect(page.locator('.empty h2')).toHaveText('Keep your favorites close.');expect((await removed).ok()).toBe(true);
 });
-test('documents, PDF range requests, missing records and old links',async({page,request})=>{
+test('documents, PDF range requests, missing records and old links',async({page})=>{
  await page.goto('/documents');await expect(page.locator('.document-card')).toHaveCount(5);await page.getByRole('searchbox').fill('1701');await expect(page.locator('.document-result')).toHaveCount(2);
- const pdf=await request.get('/documents/door-handles-knobs.pdf',{headers:{Range:'bytes=0-99'}});expect(pdf.status()).toBe(206);expect((await pdf.body()).length).toBe(100);expect(pdf.headers()['content-type']).toContain('application/pdf');
+ const pdf=await page.context().request.get('/documents/door-handles-knobs.pdf',{headers:{Range:'bytes=0-99'}});expect(pdf.status()).toBe(206);expect((await pdf.body()).length).toBe(100);expect(pdf.headers()['content-type']).toContain('application/pdf');
  await page.goto('/models/sofa-legs-1202');await expect(page.locator('.missing-detail')).toContainText('No picture of model 1202');
  await page.goto('/models/sofa-legs-1203');await expect(page.locator('.detail-price')).toContainText('Price not listed');
  await page.goto('/?q=1701&product=door-handles-1701');await expect(page).toHaveURL(/\/models\/door-handles-1701$/);
- const missing=await request.get('/models/nonexistent-model');expect(missing.status()).toBe(404);
+ const missing=await page.context().request.get('/models/nonexistent-model');expect(missing.status()).toBe(404);
  await page.goto('/?q=Folding');await page.getByRole('link',{name:'View Brackets Folding Table Bracket (Heavy)',exact:true}).click();await expect(page).toHaveURL(/\/models\/brackets-folding-table-bracket-heavy$/);await expect(page.locator('h1')).toHaveText('Folding Table Bracket (Heavy)');
 });
 test('separate image gallery and responsive page layout',async({page},testInfo)=>{

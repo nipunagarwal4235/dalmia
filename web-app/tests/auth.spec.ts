@@ -30,9 +30,9 @@ test('a mobile recovery session opens the password form without leaking tokens i
 });
 
 test('management pages require sign-in and auth forms remain usable on phone screens',async({page})=>{
-  for(const path of ['/admin','/manage','/account']) {await page.goto(path);await expect(page).toHaveURL(/\/login$/);}
+  for(const path of ['/admin','/manage','/account']) {await page.goto(path);await expect(page).toHaveURL(/\/login(?:\?|$)/);}
   await expect(page.getByRole('heading',{name:'Welcome back'})).toBeVisible();
-  await page.getByRole('button',{name:'Create account',exact:true}).click();
+  await page.getByRole('link',{name:'Create account',exact:true}).click();
   await expect(page.getByLabel('Name',{exact:true})).toBeVisible();
   await expect(page.getByLabel('Password',{exact:true})).toHaveAttribute('minlength','12');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
@@ -43,7 +43,7 @@ for(const role of ['super_admin','admin','manufacturer','retailer','wholesaler',
     test.skip(process.env.DALMIA_TEST_LIVE_AUTH!=='1','Create temporary auth test accounts first.');
     const accounts=JSON.parse(await readFile('/private/tmp/dalmia-auth-fixtures.json','utf8'));
     const account=accounts.find((entry:{role:string})=>entry.role===role);
-    await page.goto('/login');await page.getByLabel('Email',{exact:true}).fill(account.email);await page.getByLabel('Password',{exact:true}).fill(account.password);
+    await page.goto('/login?next=/account');await page.getByLabel('Email',{exact:true}).fill(account.email);await page.getByLabel('Password',{exact:true}).fill(account.password);
     await page.getByRole('button',{name:'Sign in',exact:true}).click();await expect(page).toHaveURL(/\/account$/);
     await expect(page.getByRole('heading',{name:`Test ${role}`,exact:true})).toBeVisible();
     await page.goto('/admin');
@@ -55,7 +55,7 @@ for(const role of ['super_admin','admin','manufacturer','retailer','wholesaler',
     await page.goto('/manage');
     if(['super_admin','admin','manufacturer'].includes(role))await expect(page.getByRole('heading',{name:'Manage products'})).toBeVisible();
     else await expect(page).toHaveURL(/\/account\?denied=1$/);
-    await page.goto('/account');await page.getByRole('button',{name:'Sign out',exact:true}).click();await expect(page).toHaveURL(/\/login$/);
-    await page.goto('/admin');await expect(page).toHaveURL(/\/login$/);
+    await page.goto('/account');await page.getByRole('button',{name:'Sign out',exact:true}).click();await expect(page).toHaveURL(/\/login(?:\?|$)/);
+    await page.goto('/admin');await expect(page).toHaveURL(/\/login(?:\?|$)/);
   });
 }

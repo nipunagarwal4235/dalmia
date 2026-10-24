@@ -39,15 +39,24 @@ npm start -- --port 4175
 - `scripts/` contains the PDF extraction tools and document preparation script.
 - `tests/` contains data tests and browser tests.
 
-Next.js serves a separate page for every model. React handles search, filters, and saved products. Next.js serves and optimizes the product images.
+Next.js serves a separate page for every model. React handles search, filters, and saved products. The browser loads product images from Supabase Storage.
 
 The application reads the shared Supabase catalog when its environment variables are set.
 Supabase Storage supplies catalog images, page previews, and PDF links.
-Next.js optimizes images from the configured project's `catalog-media` bucket. Vercel deployments exclude local product images and page previews.
+The website loads original images from the configured project's `catalog-media` bucket. Vercel deployments exclude local product images and page previews.
+The website disables Vercel image optimization because its managed endpoint bypasses the application login wall.
 The Supabase project URL is required for catalog media. Images have no local fallback.
 See [the database guide](../supabase/README.md) for setup and deployment.
 Account pages use Supabase Auth. Staff and manufacturer permissions come from database rules.
 See [accounts and access](../supabase/AUTH.md) for role administration and the first super admin.
+
+The website requires login for all workspace pages, local PDFs, catalog images, and optimized image requests.
+Visitors can open `/login`, `/signup`, `/forgot-password`, and the account confirmation routes without login.
+The public account pages do not load the catalog or show workspace navigation.
+After login, the website returns the user to the requested page. Direct login opens the product library.
+Password reset links open `/account/password` after the website creates a recovery session.
+The shared Supabase catalog API and Storage bucket retain their existing public access for the iOS and Android apps.
+The website login wall does not restrict direct Supabase URLs.
 
 ## Visual design
 
@@ -70,7 +79,7 @@ All matching products appear on one page, including saved products. Document sea
 
 Filters cover category, size, finish, and data availability. CSV export includes the current results and their source price rows.
 
-Signed-in users share their shortlist with the mobile app and other devices.
+Signed-in users share their shortlist with the iOS and Android apps and other devices.
 The browser keeps account-specific offline changes and retries sync every 15 seconds while open.
 Guest saves stay on this computer. Use “Add device saves to account” to copy them into the signed-in account.
 
@@ -136,6 +145,11 @@ npm run test:browser
 ```
 
 Browser tests use installed Google Chrome and a production server on port 4175. They test desktop and phone layouts.
+
+Catalog browser tests require temporary accounts and `DALMIA_TEST_LIVE_AUTH=1`.
+Run `node scripts/test-auth-accounts.mjs create` from the repository root before these tests.
+Run `node scripts/test-auth-accounts.mjs delete` from the repository root after these tests.
+The login wall tests also cover visitors without an account and simulated signup and recovery requests.
 
 The tests cover source integrity, price mappings, separate images, model pages, navigation, search, filters, saved products, CSV downloads, and PDF links.
 

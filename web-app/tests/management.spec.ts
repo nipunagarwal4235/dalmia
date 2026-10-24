@@ -6,7 +6,7 @@ test('staff can create, price, upload and delete a product through the dashboard
  const accounts=JSON.parse(await readFile('/private/tmp/dalmia-auth-fixtures.json','utf8'));
  const account=accounts.find((item:{role:string})=>item.role==='admin');
  const model=`Release test ${Date.now()}`;
- await page.goto('/login');await page.getByLabel('Email',{exact:true}).fill(account.email);await page.getByLabel('Password',{exact:true}).fill(account.password);await page.getByRole('button',{name:'Sign in',exact:true}).click();await expect(page).toHaveURL(/\/account$/);
+ await page.goto('/login?next=/account');await page.getByLabel('Email',{exact:true}).fill(account.email);await page.getByLabel('Password',{exact:true}).fill(account.password);await page.getByRole('button',{name:'Sign in',exact:true}).click();await expect(page).toHaveURL(/\/account$/);
  await page.goto('/manage');await page.getByRole('button',{name:'Add product',exact:true}).click();
  await page.getByLabel('Model',{exact:true}).fill(model);await page.getByLabel('Specifications, one per line').fill('Release test specification');
  await page.getByRole('button',{name:'Add finish',exact:true}).click();await page.getByLabel('Finish',{exact:true}).fill('Test gold');

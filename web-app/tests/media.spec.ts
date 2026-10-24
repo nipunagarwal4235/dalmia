@@ -1,4 +1,16 @@
 import {test, expect} from '@playwright/test';
+import {readFile} from 'node:fs/promises';
+
+test.beforeEach(async ({page}, testInfo) => {
+ test.skip(process.env.DALMIA_TEST_LIVE_AUTH !== '1', 'Requires temporary accounts for the login wall.');
+ const accounts = JSON.parse(await readFile('/private/tmp/dalmia-auth-fixtures.json', 'utf8'));
+ const account = accounts.find((entry:{role:string}) => entry.role === (testInfo.project.name === 'mobile' ? 'dealer' : 'wholesaler'));
+ await page.goto('/login');
+ await page.getByLabel('Email', {exact:true}).fill(account.email);
+ await page.getByLabel('Password', {exact:true}).fill(account.password);
+ await page.getByRole('button', {name:'Sign in', exact:true}).click();
+ await expect(page).toHaveURL(/\/$/);
+});
 
 test.beforeEach(() => {
   test.skip(process.env.DALMIA_TEST_LIVE_MEDIA !== '1', 'This test needs the live Supabase media bucket.');
@@ -9,7 +21,7 @@ test('failed Storage images do not switch to local files', async ({page}) => {
   page.on('request', request => {
     if (/^\/assets\/(products|pages)\//.test(new URL(request.url()).pathname)) localImages.push(request.url());
   });
-  await page.route('**/_next/image?**', route => route.abort());
+  await page.route('**/storage/v1/object/public/catalog-media/assets/**', route => route.abort());
   await page.goto('/models/door-handles-2605');
   const image = page.locator('.detail-picture img');
   await expect(image).toHaveAttribute('src', /catalog-media/);
