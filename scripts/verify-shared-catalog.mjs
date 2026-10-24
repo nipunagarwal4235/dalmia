@@ -6,12 +6,9 @@ const root = new URL('../', import.meta.url);
 const readEnv = async app => Object.fromEntries((await readFile(new URL(`${app}/.env.local`, root), 'utf8'))
   .split('\n').filter(line => /^[A-Z_]+=/.test(line)).map(line => [line.slice(0, line.indexOf('=')), line.slice(line.indexOf('=') + 1).trim()]));
 const web = await readEnv('web-app');
-const mobile = await readEnv('mobile-app');
 const url = web.NEXT_PUBLIC_SUPABASE_URL;
 const key = web.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 assert.ok(url && key, 'The web app needs Supabase connection values.');
-assert.equal(mobile.EXPO_PUBLIC_SUPABASE_URL, url, 'Both apps must use the same project.');
-assert.equal(mobile.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY, key, 'Both apps must use the same publishable key.');
 assert.match(key, /^sb_publishable_/, 'Apps must use a publishable key.');
 
 const [full, compact] = await Promise.all([
@@ -39,4 +36,4 @@ for (const table of ['catalog_products', 'catalog_documents', 'catalog_pages', '
     assert.ok([401, 403].includes(response.status), `${method} ${table} must reject public writes, received ${response.status}.`);
   }
 }
-console.log(`Shared database verified: ${full.products.length} products, ${full.documents.length} documents, ${full.pages.length} pages. Both app responses match. Public writes are denied.`);
+console.log(`Shared database verified: ${full.products.length} products, ${full.documents.length} documents, ${full.pages.length} pages. Full and compact responses match. Public writes are denied.`);

@@ -1,6 +1,6 @@
 # Accounts and access
 
-Supabase Auth supplies one account for the web app and mobile app.
+Supabase Auth supplies one account for the web app and the iOS and Android apps.
 The apps support email sign-in, registration, password recovery, profile changes, and sign-out.
 Passwords require at least 12 characters.
 New users must confirm their email address.
@@ -8,8 +8,7 @@ New users must confirm their email address.
 Catalog browsing and catalog media remain public.
 Account pages require sign-in.
 Management pages require the matching database permission.
-The mobile Account tab links authorized staff to web management pages.
-Existing mobile installations need a new build with secure storage support.
+The app Account tab links authorized staff to web management pages.
 
 ## Roles
 
@@ -51,10 +50,8 @@ The database keeps at least one active super admin.
 Database functions serialize access changes to prevent conflicting updates.
 
 Web sessions use cookies that the server validates with Supabase.
-Native mobile sessions use Expo SecureStore, which encrypts device credentials.
-The app splits long sessions into small secure entries.
-Sign-out removes those entries.
-The Expo web preview uses browser storage through the Supabase client.
+The iOS app stores its session in the Keychain. The Android app encrypts its session with an Android Keystore key.
+Sign-out removes the stored session.
 
 ## First super admin
 
@@ -118,9 +115,7 @@ For hosted browser tests, create temporary accounts with the signed-in Supabase 
 node scripts/test-auth-accounts.mjs create
 ```
 
-Build the web app before running its browser tests.
-Export the mobile web app before running its browser tests.
-From each app folder, run:
+Build the web app before running its browser tests. From `web-app`, run:
 
 ```sh
 DALMIA_TEST_LIVE_AUTH=1 npm run test:browser -- auth.spec.ts --workers=1
@@ -137,19 +132,16 @@ The cleanup command removes that file and the test accounts.
 
 ## Release tests
 
-Run the web and mobile auth suites one after the other.
-They share temporary accounts. A sign-out in one suite invalidates sessions in the other suite.
 The web recovery test generates a recovery token through the Supabase CLI and restores the temporary password afterward.
 The test does not send email or test delivery to an inbox.
 
-After building the website and exporting the mobile web preview, run this command from `web-app`:
+After building the website, run this command from `web-app`:
 
 ```sh
-DALMIA_TEST_LIVE_AUTH=1 DALMIA_TEST_LIVE_SYNC=1 npm run test:browser -- --config playwright.integration.config.ts
+DALMIA_TEST_LIVE_AUTH=1 npm run test:browser -- --config playwright.integration.config.ts
 ```
 
 The tests create one temporary product, upload an image, edit its price, and delete it.
-They also test saved-product sync and offline removals between both apps.
 From the repository root, remove test artifacts after the suites finish:
 
 ```sh

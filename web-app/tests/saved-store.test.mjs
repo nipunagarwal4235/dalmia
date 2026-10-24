@@ -1,7 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {createSavedStore} from '../lib/saved-store.mjs';
-import {readFile} from 'node:fs/promises';
 const tick=()=>new Promise(resolve=>setTimeout(resolve,5));
 function setup(){
  const files=new Map(),remote=new Map();let user='a',offline=false;
@@ -36,7 +35,4 @@ test('an in-flight load cannot replace another account collection',async()=>{
  const client={auth:{getSession:async()=>({data:{session:{user:{id:user}}}})},rpc:async()=>{const owner=user;if(owner==='a')await wait;return {data:[owner],error:null};}};
  const store=createSavedStore({client,storage:{getItem:async()=>null,setItem:async()=>{}},guestKey:'guest',onChange:()=>{}});
  await store.changeUser('a');await tick();user='b';await store.changeUser('b');await tick();release();await tick();assert.deepEqual([...store.getState().saved],['b']);store.dispose();
-});
-test('web and mobile use the same sync engine and hook',async()=>{
- for(const file of ['saved-store.mjs','use-saved-products.ts'])assert.equal(await readFile(new URL('../lib/'+file,import.meta.url),'utf8'),await readFile(new URL('../../mobile-app/src/lib/'+file,import.meta.url),'utf8'));
 });

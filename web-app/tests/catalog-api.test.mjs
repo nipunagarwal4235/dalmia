@@ -28,7 +28,3 @@ test('invalid catalog responses and network failures cannot replace the catalog'
   assert.equal(isCatalog({...source, products: [{...source.products[0], variants: [{prices: {size: 'bad'}}]}]}), false);
   assert.equal(isCatalog({...source, products: []}), true);
 });
-
-test('mobile uses the identical catalog client', async () => {
-  assert.equal(await readFile(new URL('../lib/catalog-api.mjs', import.meta.url), 'utf8'), await readFile(new URL('../../mobile-app/src/lib/catalog-api.mjs', import.meta.url), 'utf8'));
-});

@@ -1,6 +1,6 @@
 # Shared catalog database
 
-One Supabase project supplies the catalog to the web app and the mobile app.
+One Supabase project supplies the catalog to the web app and the iOS and Android apps.
 It stores 149 products, five source documents, and 86 catalog pages.
 Product records include variants, prices, units, image paths, and source references.
 The database preserves missing prices and the unspecified currency.
@@ -10,7 +10,7 @@ It belongs to `nipunagarwal4235's Org`.
 Both app environment files point to `https://qjaryhukmpodadrcfopb.supabase.co`.
 Vercel also stores this connection for production, preview, and development.
 The [live website](https://dalmia-blush.vercel.app) uses the shared database.
-Both EAS build profiles inherit the public connection from the `base` profile in `mobile-app/eas.json`.
+The iOS app reads the connection from `ios-app/Secrets.xcconfig`, and the Android app from `android-app/local.properties`.
 The ignored `.env.supabase.local` file contains the database password with owner-only file access.
 
 ## Data and access
@@ -23,8 +23,8 @@ The `catalog_settings` table stores terms, currency, and the price note.
 
 The `get_catalog` database function returns one consistent catalog snapshot.
 The web app requests the full catalog on each server request.
-The mobile app omits machine-read page text and refreshes the catalog once per minute while active.
-The mobile app stores the downloaded catalog on the device for offline use.
+The iOS and Android apps omit machine-read page text and refresh the catalog once per minute while open.
+They store the downloaded catalog on the device for offline use.
 Before the first download, it uses the bundled catalog.
 
 Row-level security controls which records each database role can access.
@@ -36,7 +36,7 @@ Never put a database password or service-role key in an app environment variable
 Supabase Storage serves 368 catalog images and five PDFs from the public `catalog-media` bucket.
 The database stores relative file paths and metadata.
 Both apps resolve these paths to the same bucket through their Supabase project URL.
-The mobile app caches pictures downloaded from Supabase. Both apps require Supabase Storage for catalog images and have no local image fallback.
+The iOS and Android apps cache pictures downloaded from Supabase. All apps require Supabase Storage for catalog images and have no local image fallback.
 Original image files remain in the web source folder for source comparisons and Storage uploads. Vercel deployments exclude these local images.
 The `saved_products` table stores each signed-in account's collection.
 Database policies prevent other accounts, including staff, from reading or changing that collection.
@@ -63,15 +63,13 @@ node scripts/catalog-media.mjs verify
 The final command downloads every public file and compares its bytes and content type with the local original.
 It writes the file sizes and SHA-256 hashes to `media-manifest.json` after all comparisons pass.
 A hash identifies file contents.
-Existing mobile installations need a new build to use the Storage image loader.
-
-After a web production build or mobile web export, run this command from the matching app folder:
+After a web production build, run this command from `web-app`:
 
 ```sh
 DALMIA_TEST_LIVE_MEDIA=1 npm run test:browser -- media.spec.ts
 ```
 
-These tests cover Storage images and PDF downloads on the website, plus image downloads and failed requests without a local fallback in the mobile preview.
+These tests cover Storage images and PDF downloads on the website.
 
 ## Create the hosted database
 
@@ -109,21 +107,18 @@ Do not run `db reset --linked` against the hosted project because it deletes dat
 
 ## Connect the apps
 
-Copy each app's `.env.example` file to `.env.local` in the same folder.
-Use the same Supabase project URL and publishable key in both files.
+Use the same Supabase project URL and publishable key in every app.
 Get the publishable key from the project dashboard.
 The publishable key permits only the access granted by the database policies.
 
 Set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` for the web app.
-Set `EXPO_PUBLIC_SUPABASE_URL` and `EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY` for the mobile app.
-Set the web variables in Vercel before the next deployment.
-For this project, both EAS profiles already include the mobile variables.
-Restart the apps after you change their environment files.
-If an Expo export retains old variables, run `npm run export:web -- --clear` from `mobile-app`.
+Copy `web-app/.env.example` to `web-app/.env.local` for local development, and set the same variables in Vercel before the next deployment.
+Set `SUPABASE_HOST` and `SUPABASE_PUBLISHABLE_KEY` in `ios-app/Secrets.xcconfig`.
+Set `supabase.url` and `supabase.publishableKey` in `android-app/local.properties`.
 
 Both apps require their Supabase project URL to load catalog media. A missing URL produces an error instead of local image links.
 If a configured database request fails, the website shows its error page.
-The mobile app retains its last usable catalog when a request fails.
+The iOS and Android apps keep their last usable catalog when a request fails.
 
 ## Catalog changes
 
@@ -157,7 +152,7 @@ The tests use PGlite, an embedded PostgreSQL engine.
 They test complete catalog import, access permissions, repeated seed runs, and catalogs with more than 1,000 products.
 They do not require Docker or a hosted database.
 The live API test passed after deployment on September 27, 2026.
-It found matching app responses and denied public writes on all four tables.
+It found matching full and compact responses and denied public writes on all four tables.
 To repeat the live test, run this command from the repository root:
 
 ```sh
@@ -165,25 +160,5 @@ node scripts/verify-shared-catalog.mjs
 ```
 
 Add `--initial-import` to compare the database with the original JSON files before you edit live catalog data.
-
-To test mobile downloads and offline recovery, run these commands from `mobile-app`:
-
-```sh
-EXPO_PUBLIC_SUPABASE_URL=https://catalog-test.supabase.co EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_test npm run export:web -- --clear
-EXPO_PUBLIC_SUPABASE_URL=https://catalog-test.supabase.co npm run test:browser -- catalog-sync.spec.ts
-npm run export:web -- --clear
-```
-
-The browser test intercepts requests to the test URL and supplies test data.
-The final command restores an export with the normal environment.
-
-To test the hosted catalog from the mobile app, run this command from `mobile-app` after the normal export:
-
-```sh
-DALMIA_TEST_LIVE_DATABASE=1 npm run test:browser -- catalog-live.spec.ts
-```
-
-This test passed on both phone screen sizes after deployment.
-It confirms that the app downloads the hosted catalog and stores it on the device.
 
 Supabase documents the [CLI deployment workflow](https://supabase.com/docs/guides/local-development/cli-workflows) and [row-level security](https://supabase.com/docs/guides/database/postgres/row-level-security).

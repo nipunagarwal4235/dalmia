@@ -1,4 +1,3 @@
-// This module is copied into the mobile app by sync-catalog.mjs.
 export function isCatalog(value) {
   const strings = values => Array.isArray(values) && values.every(item => typeof item === 'string');
   return !!value && Array.isArray(value.products) && value.products.every(product => product &&

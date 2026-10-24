@@ -1,0 +1,5 @@
+// Copy Secrets.example.xcconfig to Secrets.xcconfig and fill in the Supabase project and Apple team.
+SUPABASE_HOST =
+SUPABASE_PUBLISHABLE_KEY =
+DEVELOPMENT_TEAM =
+#include? "Secrets.xcconfig"

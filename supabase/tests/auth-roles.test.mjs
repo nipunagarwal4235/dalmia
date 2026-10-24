@@ -9,7 +9,7 @@ await db.exec(`create role anon; create role authenticated; create role service_
   create table auth.users(id uuid primary key, email text, email_confirmed_at timestamptz, raw_user_meta_data jsonb default '{}'::jsonb);
   create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid$$;
   grant usage on schema auth to authenticated; grant execute on function auth.uid() to authenticated;`);
-for (const file of ['20260927040000_shared_catalog.sql', '20260928120000_auth_roles.sql', '20260928121000_bootstrap_super_admin.sql', '20261002180000_catalog_management_and_saved.sql']) {
+for (const file of ['20260927040000_shared_catalog.sql', '20260928120000_auth_roles.sql', '20260928121000_bootstrap_super_admin.sql', '20261002180000_catalog_management_and_saved.sql', '20261025120000_delete_own_account.sql']) {
   await db.exec(await readFile(new URL(`../migrations/${file}`, import.meta.url), 'utf8'));
 }
 await db.exec(await readFile(new URL('../seed.sql', import.meta.url), 'utf8'));
@@ -176,4 +176,25 @@ test('storage uploads are limited to assigned product folders', async () => {
   await asUser('customer', async () => {
     await assert.rejects(db.exec("insert into storage.objects values ('bad','catalog-media','assets/products/door-handles-1701/abc-123.png')"), /row-level security/);
   });
+});
+
+test('people can delete only their own account, and the last super admin stays', async () => {
+  await asUser('dealer', async () => {
+    await db.query("insert into public.saved_products(user_id, product_id) values($1, 'door-handles-1701')", [ids.dealer]);
+    await db.query('select public.delete_own_account()');
+    await db.exec('reset role');
+    assert.equal((await db.query('select 1 from auth.users where id = $1', [ids.dealer])).rows.length, 0);
+    assert.equal((await db.query('select 1 from public.profiles where id = $1', [ids.dealer])).rows.length, 0);
+    assert.equal((await db.query('select 1 from public.user_roles where user_id = $1', [ids.dealer])).rows.length, 0);
+    assert.equal((await db.query('select 1 from public.saved_products where user_id = $1', [ids.dealer])).rows.length, 0);
+    assert.equal((await db.query("select 1 from auth.users")).rows.length, roles.length - 1);
+  });
+  await asUser('super_admin', async () => {
+    await assert.rejects(db.query('select public.delete_own_account()'), /at least one active super admin/);
+  });
+  await db.exec('begin');
+  try {
+    await db.exec('set local role anon');
+    await assert.rejects(db.query('select public.delete_own_account()'), /permission denied/);
+  } finally {await db.exec('rollback');}
 });

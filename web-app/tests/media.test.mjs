@@ -1,6 +1,5 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
 import {catalogMediaURL, catalogDocumentURL} from '../lib/media.mjs';
 const origin = 'https://qjaryhukmpodadrcfopb.supabase.co';
 
@@ -15,8 +14,4 @@ test('missing configuration and non-Storage URLs cannot fall back to other image
   assert.throws(() => catalogMediaURL('assets/image.jpg'), /Set the Supabase project URL/);
   assert.throws(() => catalogDocumentURL({file: 'prices.pdf'}), /Set the Supabase project URL/);
   assert.throws(() => catalogMediaURL('https://example.org/custom.jpg', origin), /must use the configured Supabase/);
-});
-
-test('mobile uses the same Storage path rules as the web app', async () => {
-  assert.equal(await readFile(new URL('../lib/media.mjs', import.meta.url), 'utf8'), await readFile(new URL('../../mobile-app/src/lib/media.mjs', import.meta.url), 'utf8'));
 });

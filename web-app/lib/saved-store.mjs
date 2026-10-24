@@ -1,4 +1,4 @@
-// Shared by the website and native app. Each account has its own cache and queue.
+// Each account has its own cache and queue. The iOS and Android apps port this logic.
 export function createSavedStore({client, storage, guestKey, onChange}) {
   let state = {saved: new Set(), ready: false, error: '', signedIn: false};
   let user = null, generation = 0, disposed = false, pending = {}, running = false;

@@ -5,7 +5,9 @@
 **/.next/
 **/test-results/
 **/playwright-report/
-/mobile-app/
+/ios-app/
+/android-app/
+/store/
 /supabase/
 /scripts/
 /web-app/public/assets/products/
