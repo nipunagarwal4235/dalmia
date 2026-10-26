@@ -1,4 +1,4 @@
-export const catalogBucket = 'catalog-media';
+const catalogBucket = 'catalog-media';
 
 // Catalog records retain portable object paths. Both apps resolve the same paths.
 export function catalogMediaURL(path, supabaseURL = '') {

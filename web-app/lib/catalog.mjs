@@ -1,12 +1,12 @@
 import { calculatedPrices, priceFields } from './pricing.mjs';
-export const normalize = (value) => String(value ?? '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+const normalize = (value) => String(value ?? '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
 export const matchesQuery = (text, query) => query.trim().split(/\s+/).every(token => {
   const term = normalize(token);
   if (/^\d{3,4}$/.test(term)) return new RegExp('(?<![0-9])' + term + '(?![0-9])').test(text);
   if (/^dh\d{3,4}$/.test(term)) return new RegExp('dh[\\s-]*' + term.slice(2) + '(?![0-9])', 'i').test(text);
   return normalize(text).includes(term);
 });
-export function matchesFinish(product, finish) {
+function matchesFinish(product, finish) {
   if (!finish) return true;
   const text = normalize(product.searchText);
   const aliases = { rosegold: ['rosegold', 'rg'], antique: ['antique', 'antic', 'ab'], cp: ['cp'], grey: ['grey', 'gray'] };

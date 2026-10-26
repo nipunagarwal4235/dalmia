@@ -117,7 +117,7 @@ The original filenames and PDF contents remain unchanged.
 | `SOFA LEG (1).pdf` | 8 | Sofa leg prices |
 | `profile handles.pdf` | 4 | Profile handles, concealed handles, and folding brackets |
 
-The build copies these PDFs into `public/documents/` for Next.js to serve. The generated copies are excluded from Git.
+The website opens these PDFs from Supabase Storage. Vercel deployments exclude the local copies.
 
 Prices follow the printed lists. The PDFs do not state a currency, so the dashboard does not add a currency symbol.
 

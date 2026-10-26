@@ -7,4 +7,3 @@ __pycache__/
 test-results/
 playwright-report/
 *.tsbuildinfo
-public/documents/
