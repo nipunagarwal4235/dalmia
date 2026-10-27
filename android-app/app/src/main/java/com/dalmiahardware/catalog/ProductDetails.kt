@@ -44,6 +44,13 @@ import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import android.annotation.SuppressLint
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import android.webkit.WebViewClient
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -51,6 +58,8 @@ fun ProductDetails(product: Product, catalog: Catalog, saved: Boolean, onClose: 
     val context = LocalContext.current
     var variantIndex by remember(product.id) { mutableIntStateOf(0) }
     var selectedSize by remember(product.id) { mutableStateOf("") }
+    var showModel by remember(product.id) { mutableStateOf(false) }
+    val modelUrl = viewerUrl(product)
     val variant = product.variants.getOrNull(variantIndex)
     val sizes = variant?.prices?.keys?.toList().orEmpty()
     val size = if (selectedSize in sizes) selectedSize else sizes.firstOrNull()
@@ -65,6 +74,7 @@ fun ProductDetails(product: Product, catalog: Catalog, saved: Boolean, onClose: 
         }
     }
 
+    if (showModel && modelUrl != null) ModelViewer(modelUrl, product.model) { showModel = false }
     Column(Modifier.fillMaxSize().background(Palette.black).safeDrawingPadding().clickable(enabled = false) {}) {
         Row(Modifier.fillMaxWidth().height(58.dp).padding(horizontal = 14.dp), verticalAlignment = Alignment.CenterVertically) {
             IconButton("back", Color.White, "Close product details", size = 24, onClick = onClose)
@@ -77,6 +87,13 @@ fun ProductDetails(product: Product, catalog: Catalog, saved: Boolean, onClose: 
         Column(Modifier.verticalScroll(rememberScrollState()).padding(start = 22.dp, end = 22.dp, top = 22.dp, bottom = 40.dp)) {
             if (product.image != null) {
                 CatalogImage(product, Modifier.fillMaxWidth().height(265.dp).clip(RoundedCornerShape(5.dp)).background(Palette.silver))
+                Spacer(Modifier.height(if (modelUrl != null) 12.dp else 24.dp))
+            }
+            if (modelUrl != null) {
+                Box(
+                    Modifier.fillMaxWidth().height(44.dp).background(Palette.gold, RoundedCornerShape(4.dp)).clickable(role = Role.Button) { showModel = true },
+                    contentAlignment = Alignment.Center,
+                ) { Text("View in 3D", style = style(13, Palette.black, FontWeight.SemiBold)) }
                 Spacer(Modifier.height(24.dp))
             }
             Text(product.category.uppercase(), style = style(9, Palette.gold, FontWeight.Bold, 2f))
@@ -166,5 +183,47 @@ private fun Warning(text: String) {
     Row(Modifier.padding(top = 14.dp).fillMaxWidth().height(IntrinsicSize.Min).background(Color(0xFF30291D))) {
         Box(Modifier.width(2.dp).fillMaxHeight().background(Palette.gold))
         Text(text, Modifier.padding(14.dp), style = style(12, Color(0xFFE1C995), lineHeight = 20))
+    }
+}
+
+// The web app's /view3d page: an interactive model with finish buttons.
+fun viewerUrl(product: Product): String? {
+    val path = product.model3d ?: return null
+    if (!path.startsWith("models/") || !path.endsWith(".glb")) return null
+    return "$SITE_URL/view3d?m=${path.removePrefix("models/").removeSuffix(".glb")}"
+}
+
+@SuppressLint("SetJavaScriptEnabled")
+@Composable
+private fun ModelViewer(url: String, title: String, onClose: () -> Unit) {
+    Dialog(onDismissRequest = onClose, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+        Column(Modifier.fillMaxSize().background(Color(0xFFF7F7F8)).safeDrawingPadding()) {
+            Row(Modifier.fillMaxWidth().height(52.dp).background(Palette.black).padding(horizontal = 14.dp), verticalAlignment = Alignment.CenterVertically) {
+                IconButton("close", Color.White, "Close 3D view", size = 22, onClick = onClose)
+                Text(title, Modifier.weight(1f), style = style(15, Color.White, FontWeight.SemiBold).copy(textAlign = androidx.compose.ui.text.style.TextAlign.Center))
+                Spacer(Modifier.width(44.dp))
+            }
+            AndroidView(
+                factory = { context ->
+                    WebView(context).apply {
+                        settings.javaScriptEnabled = true
+                        settings.domStorageEnabled = true
+                        setBackgroundColor(0xFFF7F7F8.toInt())
+                        webViewClient = object : WebViewClient() {
+                            // The AR button opens Google's Scene Viewer through an intent:// link.
+                            override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
+                                val link = request.url.toString()
+                                if (!link.startsWith("intent://")) return false
+                                runCatching { context.startActivity(Intent.parseUri(link, Intent.URI_INTENT_SCHEME)) }
+                                    .onFailure { Toast.makeText(context, "AR is not available on this phone.", Toast.LENGTH_LONG).show() }
+                                return true
+                            }
+                        }
+                        loadUrl(url)
+                    }
+                },
+                modifier = Modifier.fillMaxSize(),
+            )
+        }
     }
 }

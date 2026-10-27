@@ -21,6 +21,7 @@ struct Product: Codable, Identifiable, Hashable {
     let variants: [Variant]
     let sources: [Source]
     let images: [ProductImage]
+    let model3d: String?
     let notes: [String]
     let specs: [String]
     let sizes: [String]

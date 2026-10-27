@@ -1,4 +1,5 @@
 import SwiftUI
+import WebKit
 
 struct ProductDetails: View {
     let product: Product
@@ -11,6 +12,7 @@ struct ProductDetails: View {
     @State private var variantIndex = 0
     @State private var selectedSize = ""
     @State private var unavailable = false
+    @State private var showModel = false
 
     var body: some View {
         let variant = product.variants.indices.contains(variantIndex) ? product.variants[variantIndex] : nil
@@ -30,7 +32,16 @@ struct ProductDetails: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
                     if !product.images.isEmpty {
-                        CatalogImage(product: product).frame(maxWidth: .infinity).frame(height: 265).background(Theme.silver, in: .rect(cornerRadius: 5)).padding(.bottom, 24)
+                        CatalogImage(product: product).frame(maxWidth: .infinity).frame(height: 265).background(Theme.silver, in: .rect(cornerRadius: 5)).padding(.bottom, 12)
+                    }
+                    if let url = viewerURL(product) {
+                        Button { showModel = true } label: {
+                            HStack(spacing: 8) { Image(systemName: "rotate.3d").font(.system(size: 17)); Text("View in 3D").font(.system(size: 13, weight: .semibold)) }
+                                .foregroundStyle(Theme.black).frame(maxWidth: .infinity).frame(height: 44).background(Theme.gold, in: .rect(cornerRadius: 4))
+                        }
+                        .accessibilityLabel("View model \(product.model) in 3D")
+                        .padding(.bottom, 24)
+                        .sheet(isPresented: $showModel) { ModelViewer(url: url, title: product.model) }
                     }
                     Text(product.category.uppercased()).font(.system(size: 9, weight: .bold)).tracking(2).foregroundStyle(Theme.gold)
                     Text(product.model).font(.system(size: 36, weight: .bold)).foregroundStyle(.white).padding(.vertical, 8)
@@ -131,4 +142,42 @@ struct ProductDetails: View {
             .background(Color(0x30291D)).overlay(alignment: .leading) { Theme.gold.frame(width: 2) }
             .padding(.top, 14)
     }
+}
+
+
+// The web app's /view3d page: an interactive model with finish buttons.
+func viewerURL(_ product: Product) -> URL? {
+    guard let path = product.model3d, path.hasPrefix("models/"), path.hasSuffix(".glb") else { return nil }
+    let slug = path.dropFirst("models/".count).dropLast(".glb".count)
+    return URL(string: "\(Config.siteURL)/view3d?m=\(slug)")
+}
+
+struct ModelViewer: View {
+    let url: URL
+    let title: String
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            WebView(url: url)
+                .ignoresSafeArea(edges: .bottom)
+                .navigationTitle(title).navigationBarTitleDisplayMode(.inline)
+                .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { dismiss() } } }
+        }
+    }
+}
+
+private struct WebView: UIViewRepresentable {
+    let url: URL
+
+    func makeUIView(context: Context) -> WKWebView {
+        let view = WKWebView()
+        view.isOpaque = false
+        view.backgroundColor = UIColor(white: 0.97, alpha: 1)
+        view.scrollView.isScrollEnabled = false
+        view.load(URLRequest(url: url))
+        return view
+    }
+
+    func updateUIView(_ view: WKWebView, context: Context) {}
 }

@@ -29,6 +29,7 @@ data class Product(
     val sizes: List<String>,
     val minPrice: Double?,
     val searchText: String,
+    val model3d: String? = null,
 ) {
     val perInch get() = variants.any { it.unit == "Per inch" }
 }
@@ -67,6 +68,7 @@ fun parseCatalog(json: String): Catalog? = runCatching {
             sizes = p.getJSONArray("sizes").strings(),
             minPrice = p.number("minPrice"),
             searchText = p.getString("searchText"),
+            model3d = if (p.has("model3d")) p.text("model3d") else null,
         )
     }
     require(products.map { it.id }.toSet().size == products.size)
