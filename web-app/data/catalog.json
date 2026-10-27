@@ -108,6 +108,7 @@
           "height": 768
         }
       ],
+      "model3d": "models/brackets-folding-table-bracket-heavy.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -163,6 +164,7 @@
           "height": 687
         }
       ],
+      "model3d": "models/concealed-handles-dh-1501.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -217,6 +219,7 @@
           "height": 671
         }
       ],
+      "model3d": "models/concealed-handles-dh-1502.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -271,6 +274,7 @@
           "height": 666
         }
       ],
+      "model3d": "models/concealed-handles-dh-1503.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -354,6 +358,7 @@
           "height": 1043
         }
       ],
+      "model3d": "models/concealed-handles-dh-1504.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -436,6 +441,7 @@
           "height": 1144
         }
       ],
+      "model3d": "models/concealed-handles-dh-1505.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -515,6 +521,7 @@
           "height": 938
         }
       ],
+      "model3d": "models/concealed-handles-dh-1506.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -593,6 +600,7 @@
           "height": 943
         }
       ],
+      "model3d": "models/concealed-handles-dh-1507.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -674,6 +682,7 @@
           "height": 1011
         }
       ],
+      "model3d": "models/concealed-handles-dh-1508.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -756,6 +765,7 @@
           "height": 1012
         }
       ],
+      "model3d": "models/concealed-handles-dh-1509.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -838,6 +848,7 @@
           "height": 1012
         }
       ],
+      "model3d": "models/concealed-handles-dh-1510.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -896,6 +907,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/door-handles-1701.glb",
       "notes": [],
       "catalogText": "Finish\n| Black - Gold | Stin - CP | Rosegold | Antique |\nSize\n| 8| 12|16 |18 | 24 |",
       "specs": [],
@@ -955,6 +967,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/door-handles-1702.glb",
       "notes": [],
       "catalogText": "Finish | Black-Gold | Satin- CP | Rosegold | Antique |\nSize\n|8| 12|16|18| 24 |",
       "specs": [],
@@ -1014,6 +1027,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/door-handles-1703.glb",
       "notes": [],
       "catalogText": "Finish | Black - Gold | Satin - CP | Rosegold | Antique |\nSize\n| 8 | 12|16 |18 | 24 |",
       "specs": [],
@@ -1073,6 +1087,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/door-handles-1704.glb",
       "notes": [],
       "catalogText": "Finish | Black-Gold | Satin-CP | Rosegold | Antique |\nSize\n| 8 | 12 | 16 | 18 | 24 |",
       "specs": [],
@@ -1132,6 +1147,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/door-handles-1705.glb",
       "notes": [],
       "catalogText": "Finish | Black-Gold | Satin-CP | Black-Rosegold | Antique |\nSize\n|8 | 12|16 |18 | 24 |",
       "specs": [],
@@ -1191,6 +1207,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/door-handles-1706.glb",
       "notes": [],
       "catalogText": "Finish\n| Black-Gold | Satin-CP | Rosegold | Antique |\nSize\n| 8 | 12 |16 |18 | 24 |",
       "specs": [],
@@ -1250,6 +1267,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/door-handles-1707.glb",
       "notes": [],
       "catalogText": "Finish\n| Black - Gold | Satin - CP | Rosegold | Antique |\nSize\n|8 | 12|16 |18 | 24 |",
       "specs": [],
@@ -1309,6 +1327,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/door-handles-1708.glb",
       "notes": [],
       "catalogText": "Finish | Black-Gold | Stin-CP | Rosegold | Antique |\nSize\n| 8 | 12 |16 |18 | 24 |",
       "specs": [],
@@ -1368,6 +1387,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/door-handles-1709.glb",
       "notes": [
         "A larger size has a lower printed price in at least one row. Values are preserved from the PDF."
       ],
@@ -1429,6 +1449,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/door-handles-1710.glb",
       "notes": [],
       "catalogText": "Finish | Black-Gold | Stin-CP | Rosegold | Antique |\nSize\n| 8 | 12 |16 |18 | 24 |",
       "specs": [],
@@ -1488,6 +1509,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/door-handles-1711.glb",
       "notes": [],
       "catalogText": "Finish | Antique-Black | Block-Rosegola | Black-Gold | Rosegold-Gola\nSize | 8| 12 |16 |18 | 24 |",
       "specs": [],
@@ -1546,6 +1568,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/door-handles-1712.glb",
       "notes": [],
       "catalogText": "Finish\n| Antique | Black |\nSize\n| 12 |16 |18 | 24 |",
       "specs": [],
@@ -1604,6 +1627,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1713.glb",
       "notes": [],
       "catalogText": "Finish\n| RosegoldPvd-Rosegold Matt | Gold Pvd-Block | Gold Pvd -Antique |\n| Rosegold Pvd-Black Matt | Gold Pvd-Rosegold Matt\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -1662,6 +1686,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1714.glb",
       "notes": [],
       "catalogText": "Finish\n| Rosegold Pvd-Rosegold Matt | Gold Pvd-Black | Gold Pvd -Antique |\n| Rosegold Pvd-Black Matt | Gold Pvd-Rosegold Mott\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -1720,6 +1745,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1715.glb",
       "notes": [],
       "catalogText": "STSE\nFinish\n| RosegoldPvd-Rosegold Matt | Gold Pvd-Block | Gold Pvd -Antique |\nRosegold Pvd-Black Matt | Gold Pvd-Rosegold Matt |\nSize\n18\" | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -1779,6 +1805,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1716.glb",
       "notes": [],
       "catalogText": "Finish\n| Rosegold Pvd-Rosegold Matt | Gold Pvd-Black | Gold Pvd -Antique |\n| Rosegold Pvd-Black Matt | Gold Pvd-Rosegold Matt |\nSize\n18\" | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -1838,6 +1865,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1717.glb",
       "notes": [],
       "catalogText": "Finish |Gold Pvd-Antique | ZBlock Pvd-Black Matt | Gold Pvd-Green |\n| Rosegold Pvd-Rosegold Matt |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -1896,6 +1924,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1718.glb",
       "notes": [],
       "catalogText": "Finish |Gold Pvd-Black Matt | Rosegold Pvd-Black Matt | Gold Pvd-Antique |\n| Rosegold Pvd-Rosegold Matt | Gold Pvd-Green |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -1954,6 +1983,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1719.glb",
       "notes": [],
       "catalogText": "Finish |Gold Pvd-Block Matt | Rosegold Pvd-Rosegold Mott | Gold Pvd-Antique |\n| Rosegold Pvd-Black Matt |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2012,6 +2042,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1720.glb",
       "notes": [],
       "catalogText": "Finish |Gold Pvd-BlackMatt | Black Pvd-Black Matt | Gold Pvd -Antique |\n| Rosegold Pvd -Rosegold Matt |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2070,6 +2101,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1721.glb",
       "notes": [],
       "catalogText": "Finish | Gold Pvd -Black Matt | Black Pvd -Black Matt | Gold Pvd-Antique |\n| Rosegold Pvd-Rosegold Matt | Gold Pvd-Green |\nSize |8\" | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2129,6 +2161,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1722.glb",
       "notes": [],
       "catalogText": "Finish |Gold Pvd-Black Matt | Gold Pvd-Antique | Rosegold Pvd-Black Matt |\n|ZBlack Pvd-Black Mott | Gold Pvd-Gold Mott | RosegoldPvd-Rosegold Matt |\nSize 18\" | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2188,6 +2221,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1723.glb",
       "notes": [],
       "catalogText": "Finish |Gold Pvd-Black Matt | Black Pvd-Black Matt | Gold Pvd-Antique |\n| Rosegold Pvd-Rosegold Matt |\nSize\n18\" | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2247,6 +2281,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1724.glb",
       "notes": [],
       "catalogText": "Finish | Gold Pvd-Black Matt | Rosegold Pvd-Rosegold Matt |\nSize |8\" | 12\" | 16 | 18' | 24\" |",
       "specs": [],
@@ -2306,6 +2341,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1725.glb",
       "notes": [],
       "catalogText": "Finish\n|Rosegold Pvd -Rosegold Matt | Gold Pva-Green | Rosegold Pva-Satin |\n| Gold Pvd- Antique | ZBlackPvd-Black Matt |",
       "specs": [],
@@ -2365,6 +2401,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1726.glb",
       "notes": [],
       "catalogText": "Size\n18\" | 12\" | 16\" | 18\" | 24\" |\nFinish | Gola Pvd-Black Matt | Rosegold Gold Pva - Antique |\n| Rosegold Pvd - Rosegold Matt | Gold Pvd -Green |\nSize | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2423,6 +2460,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1727.glb",
       "notes": [],
       "catalogText": "Finish | Gold Pvd-Black Mott | Black Pvd-Black Mott | Gold Pvd-Antique |\nRosegola Pvd-Rosegold Matt |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2481,6 +2519,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1728.glb",
       "notes": [],
       "catalogText": "Finish |Gold Pvd-Block Matt | Rosegold Pvd -BlackMatt | Antique |\n| Gold Pvd -Green l\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2539,6 +2578,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1729.glb",
       "notes": [],
       "catalogText": "Finish | Gold Pvd-Rosegold Matt | Gold Pvd-Green | Rosegold Pvd-Rosegold Matt |\n|Gold Pvd-Black Matt | Rosegold-Pvd Black Matt | GoldPvd-Antique |\nSize | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2597,6 +2637,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1730.glb",
       "notes": [],
       "catalogText": "Finish\n|Gold Pvd-Gold Matt | ZBlack Pvd-Black Matt | Gold Pvd-Black Matt |\nRosegold Pvd- Black Matt | Rosegold Pvd -Rosegold Matt |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2655,6 +2696,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1731.glb",
       "notes": [],
       "catalogText": "Finish |GoldPvd-Antique | Rosegold Pvd-Rosegold Matt | Gold Pvd-Block Matt |\n|ZBlackPvd-Black Matt l\nSize\n18\" | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2714,6 +2756,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1732.glb",
       "notes": [],
       "catalogText": "Finish |ZBlack Pvd -Black Matt | Rosegold Pvd-Rosegold Matt |\n| Antique | Rosegold Pvd-Black Matt |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2772,6 +2815,7 @@
           "height": 473
         }
       ],
+      "model3d": "models/door-handles-1733.glb",
       "notes": [],
       "catalogText": "Finish | Gold Pvd-Antique | Rosegold Pvd-Rosegold Mott | Gold Pvd-Block Matt |\n|ZBlack Pvd-Black Matt |\nSize\n18\" | 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2831,6 +2875,7 @@
           "height": 479
         }
       ],
+      "model3d": "models/door-handles-1734.glb",
       "notes": [],
       "catalogText": "Finish | Gola Pva-Gola Mott | Rosegold Pvd-Rosegold Matt | Antique |\n| Gold Pvd-Black Matt | Cp-Satin |\nSize\n| 12\" | 16\" | 18\" | 24\" |",
       "specs": [],
@@ -2889,6 +2934,7 @@
           "height": 484
         }
       ],
+      "model3d": "models/door-handles-1735.glb",
       "notes": [],
       "catalogText": "Finish\n| Gold Pvd-Black Matt | Antique | Rosegold Pvd-Rosegold Matt |\n[Gola Pva-GoldMatt | Cp-Satin |\nSize\n18\" | 12\" | 16\" | 18\" | 24\" 1",
       "specs": [],
@@ -3008,6 +3054,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2601.glb",
       "notes": [],
       "catalogText": "2602\n2603\n2604\n2605\n2606\nFinish\nCP Gold | Antique | Rose Gold |\nSize\n[8|10| 12 |",
       "specs": [],
@@ -3125,6 +3172,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2602.glb",
       "notes": [],
       "catalogText": "2601\n2603\n2604\n2605\n2606\nFinish\nCP Gold | Antique | Rose Gold |\nSize\n[8|10| 12 |",
       "specs": [],
@@ -3242,6 +3290,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2603.glb",
       "notes": [],
       "catalogText": "2601\n2602\n2604\n2605\n2606\nFinish\nCP Gold | Antique | Rose Gold |\nSize\n[8|10| 12 |",
       "specs": [],
@@ -3359,6 +3408,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2604.glb",
       "notes": [],
       "catalogText": "2601\n2602\n2603\n2605\n2606\nFinish\nCP Gold | Antique | Rose Gold |\nSize\n[8|10| 12 |",
       "specs": [],
@@ -3484,6 +3534,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2605.glb",
       "notes": [
         "A larger size has a lower printed price in at least one row. Values are preserved from the PDF.",
         "The 10 in price is printed as 5755. The adjacent models list 575. Confirm this value with the supplier."
@@ -3616,6 +3667,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2606.glb",
       "notes": [],
       "catalogText": "2601\n2602\n2603\n2604\n2605\nFinish\nCP Gold | Antique | Rose Gold |\nSize\n[8|10| 12 |",
       "specs": [],
@@ -3733,6 +3785,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2607.glb",
       "notes": [],
       "catalogText": "2608\n2609\n2610\n2611\nFinish\n| CP | Gold | Antique | Rose Gold |\nSize\n| 8 |10 | 12 |",
       "specs": [],
@@ -3850,6 +3903,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2608.glb",
       "notes": [],
       "catalogText": "2607\n2609\n2610\n2611\nFinish\n| CP | Gold | Antique | Rose Gold |\nSize\n| 8 |10 | 12 |",
       "specs": [],
@@ -3967,6 +4021,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2609.glb",
       "notes": [],
       "catalogText": "2607\n2608\n2610\n2611\nFinish\n| CP | Gold | Antique | Rose Gold |\nSize\n| 8 |10 | 12 |",
       "specs": [],
@@ -4084,6 +4139,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2610.glb",
       "notes": [],
       "catalogText": "2607\n2608\n2609\n2611\nFinish\n| CP | Gold | Antique | Rose Gold |\nSize\n| 8 |10 | 12 |",
       "specs": [],
@@ -4217,6 +4273,7 @@
           }
         }
       ],
+      "model3d": "models/door-handles-2611.glb",
       "notes": [],
       "catalogText": "2607\n2608\n2609\n2610\nFinish\n| CP | Gold | Antique | Rose Gold |\nSize\n| 8 |10 | 12 |",
       "specs": [],
@@ -4270,6 +4327,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/knobs-2001.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4321,6 +4379,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/knobs-2002.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegola\nPacking | 50 pcs.",
       "specs": [],
@@ -4372,6 +4431,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/knobs-2003.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4423,6 +4483,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/knobs-2004.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegola\nPacking | 50 pcs.",
       "specs": [],
@@ -4474,6 +4535,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/knobs-2005.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4525,6 +4587,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/knobs-2006.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegola\nPacking | 50 pcs.",
       "specs": [],
@@ -4576,6 +4639,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/knobs-2007.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4627,6 +4691,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/knobs-2008.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegola\nPacking | 50 pcs.",
       "specs": [],
@@ -4678,6 +4743,7 @@
           "height": 510
         }
       ],
+      "model3d": "models/knobs-2009.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4729,6 +4795,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/knobs-2010.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegola\nPacking | 50 pcs.",
       "specs": [],
@@ -4780,6 +4847,7 @@
           "height": 770
         }
       ],
+      "model3d": "models/knobs-2011.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green\n| Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4831,6 +4899,7 @@
           "height": 788
         }
       ],
+      "model3d": "models/knobs-2012.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green\n| Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4882,6 +4951,7 @@
           "height": 512
         }
       ],
+      "model3d": "models/knobs-2013.glb",
       "notes": [],
       "catalogText": "Finish\n| CP | Gold | Black | Green | Grey | Antique | Rosegold\nPacking | 50 pcs.",
       "specs": [],
@@ -4976,6 +5046,7 @@
           "height": 611
         }
       ],
+      "model3d": "models/profile-handles-dh-1001.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -5071,6 +5142,7 @@
           "height": 640
         }
       ],
+      "model3d": "models/profile-handles-dh-1002.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -5153,6 +5225,7 @@
           "height": 600
         }
       ],
+      "model3d": "models/profile-handles-dh-1003.glb",
       "notes": [],
       "catalogText": "",
       "specs": [],
@@ -5207,6 +5280,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1201.glb",
       "notes": [],
       "catalogText": "S.S.|45mm\nFinish\nMatt\nLining\nSize - Inch\n|2ồi 45 PCs |\n| 3ồi30 Pcsłą\n|4\" 22 Pcs |\n| 6ồi 15 Pcs|",
       "specs": [
@@ -5304,6 +5378,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1203.glb",
       "notes": [
         "This model appears in the catalog but has no matching price in the supplied lists."
       ],
@@ -5360,6 +5435,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1204.glb",
       "notes": [],
       "catalogText": "S.S./65mm\nFinish\nMatt Lining\nSize - Inch\n|2\" 18 Pcs |\n| 3ồi 12 Pcs |\n|4\" 10 Pcs |\n|6ồi 6 Pcs|",
       "specs": [
@@ -5419,6 +5495,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1208.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nFinish\nS.S.\nSize - Inch\n| 3\" 24 Pcs |\n| 4ồi 18 Pcs |\n16\" 12 Pcs|",
       "specs": [
@@ -5539,6 +5616,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1210.glb",
       "notes": [],
       "catalogText": "S.S. 50mm Dram\nFinish\nGold\nCubic\nRose Gola\nAntique Copper\nSize - Inch\n|3\" 24 Pcs |\n|4\" 18 Pcs |\n| 6ồi 12 Pcs|",
       "specs": [
@@ -5598,6 +5676,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1214.glb",
       "notes": [],
       "catalogText": "S.S.| 75mm\nDram\nFinish\nMulti\nSize - Inch\n|3ẠỊồi 8 Pcs |\n| 4ồi 8 Pcs |",
       "specs": [
@@ -5716,6 +5795,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1217.glb",
       "notes": [],
       "catalogText": "S.S. | 60x60mm\nFinish\nMatt\nRose Gold\nBlack Matt\nSize - Inch\n|3\" 16 PcsśŚłŚę\n|4\" 12 Pcs |\n|6\" 8 Pcs|",
       "specs": [
@@ -5819,6 +5899,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1219.glb",
       "notes": [],
       "catalogText": "S.S. 50x50mm\nFinish\nMatt\nRose Gold\nBlack\nSize - Inch\n| 3ạẠồ24 Pcs |\n|4\" 18 Pcs |\n|6ồỊồi 12 Pcsłąłą",
       "specs": [
@@ -5877,6 +5958,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1221.glb",
       "notes": [],
       "catalogText": "Aluminum\n65mm\nFinish\nWengy\nSize - Inch\n| 3ồi12 Pcs|\n|4\" 10 Pcs|\n|6\" 6 Pcs|",
       "specs": [
@@ -5935,6 +6017,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1222.glb",
       "notes": [],
       "catalogText": "Aluminum\n50 mm\nFinish\nWengy Lining\nSize - Inch\n| 3ồỊồ24 Pcs |\n| 4\" 18 Pcs |\n| 6ồỊi 12 Pcs |",
       "specs": [
@@ -5993,6 +6076,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1223.glb",
       "notes": [],
       "catalogText": "Aluminum\n65 mm Dram\nFinish\nWengy Lining\nSize - Inch\n| 3ồi 12 Pcs|\n| 4ồ 10 Pcs |\n16ồi 6 PCS|",
       "specs": [
@@ -6051,6 +6135,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1224.glb",
       "notes": [],
       "catalogText": "Aluminum\n50 mm\nFinish\nWengy\nSize - Inch\n| 3ồi24 PCs |\n| 4\" 18 Pcs |\n| 6ồi 12 Pcs |",
       "specs": [
@@ -6169,6 +6254,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1226.glb",
       "notes": [],
       "catalogText": "S.s./50mm\nRajwadi\nFinish\nBlack\nGold\nAntique\nRose Gold\nSize - Inch\n|3\" 24 Pcs|\n|4\" 18 Pcs |\n16\" 12 Pcs|",
       "specs": [
@@ -6287,6 +6373,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1227.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nDol\nFinish\nGola\nBlack\nAntique\nRose Gold\nAntique Copper\nSize - Inch\n|3\" 12 Pcs |\n| 4\" 10 Pcs |\n|6ồỊồỊ 6 Pcs|",
       "specs": [
@@ -6390,6 +6477,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1228.glb",
       "notes": [],
       "catalogText": "S.S./ 50mm\nGaredi\nFinish\nGold\nBlack\nAntique\nRose Gola\nAntique Copper\nSize - Inch\n| 3\" 24 Pcs|\n| 4ồỊồi 18 Pcs |\n|6\" 12 Pcs|",
       "specs": [
@@ -6493,6 +6581,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1229.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nGaredi Dram\nFinish\nGold\nBlack\nAntique\nRose Gold\nAntique Copper\nSize - Inch\n|3\" 24 Pcs|\n|4\" 18 Pcs |\n| 6ồ 12 Pcs |",
       "specs": [
@@ -6530,6 +6619,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1231.glb",
       "notes": [
         "This model appears in the catalog but has no matching price in the supplied lists."
       ],
@@ -6631,6 +6721,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1232.glb",
       "notes": [],
       "catalogText": "S.S. 65x50 mm\nFinish\nS.S. Matt\nCubic CP\nBlack Gold\nBlack Rosegold\nSize - Inch\n|3\" 12 Pcs|\n| 4iỊồi 10 Pcs |\n|6\" 6Pcs|",
       "specs": [
@@ -6720,6 +6811,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1233.glb",
       "notes": [],
       "catalogText": "S.S. | 50x50mm\nFinish\nS.S. Matt\nCubic\nSize - Inch\n| 3iồi24 Pcs |\n| 4ồi 18 Pcs|\n| 6ồi 12 Pcs |",
       "specs": [
@@ -6839,6 +6931,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1235.glb",
       "notes": [],
       "catalogText": "S.S.\nFinish\nGold\nAntique\nBlack Matt\nRose Gold\nAntique Copper\nSize - Inch\n| 3\" 30 Pcs|\n| 4ồỊồi22 Pcs |\n| 6ồi 15 Pcs|",
       "specs": [
@@ -6957,6 +7050,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1236.glb",
       "notes": [],
       "catalogText": "S.S.| 65mm\nNew Dram\nFinish\nCubic\nLining\nBlack\nAntique\nRose Gold\nSize - Inch\n|3\" 12 Pcs|\n|4ồi 10 Pcs |\n16ồỊồi 6 PCs|",
       "specs": [
@@ -7075,6 +7169,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1237.glb",
       "notes": [],
       "catalogText": "S.S.\nFinish\nGold\nBlack\nAntique\nRose Gold\nAntique Copper\nSize - Inch\n| 3ồỊồ20 Pcs |\n|4\" 20 Pcs |",
       "specs": [
@@ -7193,6 +7288,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1238.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nFinish\nGold\nBlack\nAntique\nRose Gold\nAntique Copper\nKosegola - Black\nSize - Inch\n| 3ồỊồi24 Pcsśłąłą\n| 4ồỊồ 18 Pcs |\n|6ồỊồi 12 Pcs|",
       "specs": [
@@ -7311,6 +7407,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1239.glb",
       "notes": [],
       "catalogText": "S.S./ 50mm\nFinish\nBlack\nGold\nAntique\nRose Gold\nAntique Copper\nSize - Inch\n| 3ồỊi24 Pcs|\n|4\" 18 Pcs|\n|6\" 12 Pcs|",
       "specs": [
@@ -7414,6 +7511,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1240.glb",
       "notes": [],
       "catalogText": "S.S. 65mm\nRajwadi\nFinish\nAntique\nRose Gold\nAntique Copper\nSize - Inch\n|3\" 12 Pcs|\n|4\" 10 Pcs |\n|6ồi 6 PCsłąłą",
       "specs": [
@@ -7532,6 +7630,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1241.glb",
       "notes": [],
       "catalogText": "S.S.| 65mm\nGaredi\nFinish\nGold\nAntique\nRose Gold\nAntique Copper\nSize - Inch\n| 3ồỊồi 12 Pcs |\n| 4ồỊồ 10 Pcs |\n|6ồi 6 Pcs|",
       "specs": [
@@ -7620,6 +7719,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1242.glb",
       "notes": [],
       "catalogText": "S.S.\nFinish\nS.S. CP\nBlack - Rosegola\nSize - Inch\n| 3ẠỊi20 Pcs |\n|4\" 15 Pcs |\n|6\" 10 Pcs |",
       "specs": [
@@ -7739,6 +7839,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1243.glb",
       "notes": [
         "A larger size has a lower printed price in at least one row. Values are preserved from the PDF."
       ],
@@ -7778,6 +7879,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1244.glb",
       "notes": [
         "This model appears in the catalog but has no matching price in the supplied lists."
       ],
@@ -7849,6 +7951,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1245.glb",
       "notes": [],
       "catalogText": "S.S.| 65mm\nFinish\nCP TT\nCubic\nSize - Inch\n| 3ồi 12 Pcs |\n|4\" 10 Pcs |\n|6\" 6 Pcs|",
       "specs": [
@@ -7922,6 +8025,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1246.glb",
       "notes": [],
       "catalogText": "S.S.\nFinish\nCP - Matt\nCubic\nSize - Inch\n|3\" 12 Pcs|\n|4\" 10 Pcs |\n16\" 6Pcs|",
       "specs": [
@@ -7995,6 +8099,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1247.glb",
       "notes": [],
       "catalogText": "S.S.\nFinish\nMatt\nCubic\nSize - Inch\n|3\" 24 Pcs |\n|4\" 18 Pcs |\n| 6ồi 12 Pcs |",
       "specs": [
@@ -8133,6 +8238,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1249.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nFinish\nGold\nBlack\nCubic\nRosegola\nRosegold - Black\nSize - Inch\n|3\" 24 Pcs|\n|4\" 18 Pcs |\n| 6ồi 12 Pcs |",
       "specs": [
@@ -8266,6 +8372,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1250.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nRajwadi\nFinish\nBlack\nAntique\nRose Gola\nRosegold - Black\nAntique Copper\nSize - Inch\n|3\" 20 Pcs|\n|4\" 15 Pcs |\n|6\" 10 Pcs |",
       "specs": [
@@ -8384,6 +8491,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1251.glb",
       "notes": [],
       "catalogText": "S.S. | 50mm\nDamru\nFinish\nBlack\nAntique\nRose Gold\nBlack Rosegola\nSize - Inch\n|3\" 20 Pcs|\n| 4\" 15 Pcs |\n|6ồi 10 Pcs |",
       "specs": [
@@ -8487,6 +8595,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1252.glb",
       "notes": [],
       "catalogText": "S.S.| 65mm\nFinish\nGold\nAntique\nRose Gold\nAntique Copper\nSize - Inch\n| 3ẠỊi12 PCs|\n|4\" 10 Pcs |\n|6\" 6 Pcs|",
       "specs": [
@@ -8605,6 +8714,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1253.glb",
       "notes": [
         "A price row has no finish in the source. No finish was inferred."
       ],
@@ -8674,6 +8784,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1254.glb",
       "notes": [
         "The price list merges the size columns for this model. It does not assign this price to a specific size."
       ],
@@ -8741,6 +8852,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1255.glb",
       "notes": [
         "The price list merges the size columns for this model. It does not assign this price to a specific size."
       ],
@@ -8808,6 +8920,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1256.glb",
       "notes": [
         "The price list merges the size columns for this model. It does not assign this price to a specific size."
       ],
@@ -8863,6 +8976,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1257.glb",
       "notes": [
         "The price list merges the size columns for this model. It does not assign this price to a specific size."
       ],
@@ -8951,6 +9065,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1262.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nFinish\nBlack\nAntique\nRose Gold\nSize - Inch\n|3\" 12 Pcs|\n|4ồ 10 Pcs |\n16\" 6PCs|",
       "specs": [
@@ -9039,6 +9154,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1263.glb",
       "notes": [],
       "catalogText": "S.S. 50mm\nFinish\nBlack - Matt black\nBlack - Gold\nBlack - Rosegola\nSize - Inch\n| 3ồi 30 Pcsłąłą\n| 4ồi22 Pcs |\n|6\" 15 Pcs|",
       "specs": [
@@ -9142,6 +9258,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1264.glb",
       "notes": [],
       "catalogText": "S.S. | 50mm\nFinish\nBlack\nGold\nRosegold\nSize - Inch\n|3\" 30 Pcs|\n|4\" 22 Pcs |\n|6\" 15 Pcs|",
       "specs": [
@@ -9245,6 +9362,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1265.glb",
       "notes": [],
       "catalogText": "S.S. 50mm\nFinish\nGold\nRosegola\nBlack - Gold\nBlack - Rosegola\nSize - Inch\n| 3iồi30 Pcs |\n|4\" 22 Pcs |\n| 6ồ15 Pcs|",
       "specs": [
@@ -9363,6 +9481,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1266.glb",
       "notes": [
         "A larger size has a lower printed price in at least one row. Values are preserved from the PDF."
       ],
@@ -9453,6 +9572,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1267.glb",
       "notes": [],
       "catalogText": "S.S. 50mm\nFinish\nBlack - Gold\nBlack - Rosegold\nMatt black - Black\nSize - Inch\n| 3Ịồ30 Pcs|\n|4\" 22 Pcs |\n|6\" 15 Pcs|",
       "specs": [
@@ -9556,6 +9676,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1268.glb",
       "notes": [],
       "catalogText": "S.S.| 65mm\nFinish\nBlack\nGola\nRosegold\nSize - Inch\n|3\" 12 Pcs |\n| 4ồỊồi 10 Pcs |\n16\" 6 Pcs|",
       "specs": [
@@ -9674,6 +9795,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1269.glb",
       "notes": [],
       "catalogText": "S.S. 50mm\nFinish\nBlack\nGold\nRosegola\nAntique - Gold\nSize - Inch\n|3\" 30 Pcs|\n|4\" 22 Pcs|\n| 6ồi15 Pcs|",
       "specs": [
@@ -9747,6 +9869,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1270.glb",
       "notes": [],
       "catalogText": "S.S.| 50mm\nFinish\nBlack - Gold\nBalck - Rosegold\nSize - Inch\n| 3iồi24 Pcs |\n|4\" 18 Pcs |\n|6\" 12 Pcs|",
       "specs": [
@@ -9835,6 +9958,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1271.glb",
       "notes": [],
       "catalogText": "S.S. 50mm\nFinish\nRosegold\nBlack - Rosegola\nMott black - Black\nSize - Inch\n| 3ồi 30 Pcs |\n|4\" 22 Pcs |\n|6\" 15 Pcs|",
       "specs": [
@@ -9938,6 +10062,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1272.glb",
       "notes": [],
       "catalogText": "S.S.\nFinish\nBlack\nGold\nRosegold\nSize - Inch\n|4\" 6\" 8\" 10\" 12\" |",
       "specs": [
@@ -10041,6 +10166,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1273.glb",
       "notes": [
         "A larger size has a lower printed price in at least one row. Values are preserved from the PDF."
       ],
@@ -10146,6 +10272,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1274.glb",
       "notes": [],
       "catalogText": "S.S.\nFinish\nBlack\nGold\nRosegold\nSize - Inch\n|3\" 24 Pcs |\n| 4ồi 18 Pcs |\n| 6ồỊ 12 Pcs |",
       "specs": [
@@ -10217,6 +10344,7 @@
           "height": 683
         }
       ],
+      "model3d": "models/sofa-legs-1501.glb",
       "notes": [],
       "catalogText": "Finish | Green | Black | Gold | Rosegold | Black |\n| Antique | Gold | Black Matt | ZBlack Matt |\nSize - Inch 13\" 24 Pcs| 4\" 18 Pcs | 6\" 12 Pcs |",
       "specs": [],
@@ -10272,6 +10400,7 @@
           "height": 708
         }
       ],
+      "model3d": "models/sofa-legs-1502.glb",
       "notes": [],
       "catalogText": "Finish\n| Black | Gold | Rose Gold | Grey\nSize - Inch\n13\" 24 Pcs|4\" 18 Pcs | 6\" 12 Pcs |",
       "specs": [],
@@ -10327,6 +10456,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1503.glb",
       "notes": [],
       "catalogText": "Finish\nBlack - Gola\nRosegold - Black\nAntique-Black\nBlack-Matt\nZ Black-Matt\nSize - Inch\n|3Ạồi24 Pcs |\n|4\" 18 Pcs |\n|6ồi12 Pcs |",
       "specs": [],
@@ -10396,6 +10526,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1504.glb",
       "notes": [],
       "catalogText": "Finish\nBlack Matt\nZBlackPVD\nRosegold Matt\nRosegold PVD\nBlack - Gold PVD\nAntiq Gold PVD\nGreen Gold PVD\nSize - Inch\n|4\" 16 Pcs |\n|6ồi 16 Pcs |",
       "specs": [],
@@ -10450,6 +10581,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1505.glb",
       "notes": [],
       "catalogText": "Finish\nGold\nBlack\nGreen\nGrey\nRosegold\nSize - Inch\n| 3Ạỗ¿ỗ24 Pcs |\n| 4ồỊồi 18 Pcs |",
       "specs": [],
@@ -10518,6 +10650,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1506.glb",
       "notes": [],
       "catalogText": "Finish\nBlack Matt\n2 Black Pva\nRosegold\nRosegold Pvd\nAntique\nBlack Pvo\nBlack Gola Pva\nBlack Rosegold Pvd\nGreen - Gold PVD\nSize - Inch\n|3iỊồ16 Pcsł\n|4ồỊồi 16 PCsłąłą\n|6ồi 16 PCsłąłą",
       "specs": [],
@@ -10601,6 +10734,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1507.glb",
       "notes": [],
       "catalogText": "Finish\nZ Black Pvd\nBlack Matt\nGold Pvd - Green\nGreen - Black\nGold Pvd - Black\nRosegola Pva\nSize - Inch\n|4\" 16 Pcs |\n16\" 16 Pcs |",
       "specs": [],
@@ -10683,6 +10817,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1508.glb",
       "notes": [],
       "catalogText": "Finish\nRosegola Pvo\nZ Black Pva\nBlack Matt\nGreen - Black\nGold Pvd\nBlack Matt\nGola Pva - Green\nGrey\nSize - Inch\n|4\" 16 Pcs |\n16\" 16 Pcs |",
       "specs": [],
@@ -10765,6 +10900,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1509.glb",
       "notes": [],
       "catalogText": "Finish\nGold Pvd Green\nRosegold Pvd\nZ Black\nGola Pvd Z Black\nZ Black Pvd\nBlack Matt\nGold Pva Antique\nRosegola Pva\nZ Black Pvd Grey\n2 Black Green\nSize - Inch\n|4\" 16 Pcs|",
       "specs": [],
@@ -10847,6 +10983,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1510.glb",
       "notes": [
         "A larger size has a lower printed price in at least one row. Values are preserved from the PDF.",
         "The 6 in price for finish A is printed as 110. Confirm this value with the supplier."
@@ -10918,6 +11055,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1511.glb",
       "notes": [],
       "catalogText": "Finish\nRosegold Pvd\nGold Pva\nz Black Pva\nSize - Inch\n|4\" 16 Pcs |\n|6\" 16 Pcs |",
       "specs": [],
@@ -10986,6 +11124,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1512.glb",
       "notes": [],
       "catalogText": "Finish\nRosegold Pva\nRosegold Matt\nGola Pvd\nGola Matt\nGold Pvd\nBlack Matt\n2 Black Pva\nBlack Matt\nRosegold Pvd\nBlack Matt\nSize - Inch\n|4ồỊồi 16 PCsłąłą\n|6\" 16 Pcs |",
       "specs": [],
@@ -11054,6 +11193,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1513.glb",
       "notes": [],
       "catalogText": "Finish\n2 Black Pva\nBlack Matt\nRosegold Pvd\nBlack Matt\nGold Pvd\nGola Matt\nGold Pva\nBlack Matt\nRosegold Pvd\nRosegold Matt\nSize - Inch\n|4\" 16 Pcs |\n|6\" 16 Pcs |",
       "specs": [],
@@ -11122,6 +11262,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1514.glb",
       "notes": [],
       "catalogText": "Finish\nGold Pvd\nBlack Matt\n2 Black Pvd\nBlack Matt\nRosegola Pva\nBlack Matt\nSize - Inch\n|4\" 16 Pcs |\n| 6ồi 16 Pcs |",
       "specs": [],
@@ -11190,6 +11331,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1515.glb",
       "notes": [],
       "catalogText": "Finish\nGold Pvd\nBlack Matt\nZ Black Pvd\nBlack Matt\nRosegold Pvd\nBlack Matt\nSize - Inch\n|4\" 16 Pcs |\n|6ồi 16 Pcs |",
       "specs": [],
@@ -11258,6 +11400,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1516.glb",
       "notes": [],
       "catalogText": "Finish\nGold Pvd\nBlack Matt\nR Gold Pvd\nBlack Matt\nZ Black Pvd\nBlack Matt\nSize - Inch\n|4iồi16 Pcsłąłą\n|6i 16 PCs |",
       "specs": [],
@@ -11327,6 +11470,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1517.glb",
       "notes": [],
       "catalogText": "Finish\nGold Pva\nRosegold Pvd\nZ Black Pvd\nSize - Inch\n|4\" 16 Pcs |\n16\" 16 Pcs |",
       "specs": [],
@@ -11395,6 +11539,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1518.glb",
       "notes": [],
       "catalogText": "Finish\nGold Pvd\nRosegola Pva\nZ Black Pvd\nSize - Inch\n|4\" 16 Pcs |\n|6\" 16 Pcs |",
       "specs": [],
@@ -11463,6 +11608,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1519.glb",
       "notes": [],
       "catalogText": "Finish\nRosegold Pva\nBlack Matt\nGola Pva\nBlack Matt\nZ Black Pvd\nBlack Matt\nSize - Inch\n|4\" 16 Pcs |\n|6\" 16 Pcsłą",
       "specs": [],
@@ -11531,6 +11677,7 @@
           "height": 632
         }
       ],
+      "model3d": "models/sofa-legs-1520.glb",
       "notes": [],
       "catalogText": "Finish\nGolapva\nRosegola Pva\nZ Black Pvd\nSize - Inch\n|4\" 16 Pcs |\n|6\" 16 Pcs |",
       "specs": [],
@@ -11585,6 +11732,7 @@
           "height": 630
         }
       ],
+      "model3d": "models/sofa-legs-1521.glb",
       "notes": [],
       "catalogText": "Finish\nRosegold Pvd\nBlack Matt\nGold Pva\nBlack Matt\nZ Black Pvd\nBlack Matt\nSize - Inch\n|4\" 16 Pcs |\n16\" 16 Pcs |",
       "specs": [],

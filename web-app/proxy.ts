@@ -14,7 +14,7 @@ export async function proxy(request:NextRequest) {
     },
   });
   const {data, error} = await client.auth.getUser();
-  const publicPaths = ['/login', '/signup', '/forgot-password', '/privacy', '/auth/callback', '/auth/mobile'];
+  const publicPaths = ['/login', '/signup', '/forgot-password', '/privacy', '/auth/callback', '/auth/mobile', '/view3d'];
   if (!publicPaths.includes(request.nextUrl.pathname) && (error || !data.user)) {
     const login = new URL('/login', request.url);
     login.searchParams.set('next', request.nextUrl.pathname + request.nextUrl.search);
@@ -26,4 +26,4 @@ export async function proxy(request:NextRequest) {
   response.headers.set('Cache-Control','private, no-store');
   return response;
 }
-export const config = {matcher:['/((?!_next/static/|favicon\\.ico$|assets/(?:favicon|dalmia-monogram|dalmia-wordmark)\\.svg$).*)']};
+export const config = {matcher:['/((?!_next/static/|favicon\\.ico$|assets/(?:favicon|dalmia-monogram|dalmia-wordmark)\\.svg$|models/[a-z0-9-]+\\.glb$).*)']};
