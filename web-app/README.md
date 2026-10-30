@@ -72,6 +72,7 @@ The sidebar and favicon use the original logo paths from the cover of `door-hand
 | `/models/door-handles-2601` | View one model, its image, prices, and source links |
 | `/documents` | Search source pages and open the original PDFs |
 | `/shortlist` | View saved products |
+| `/playground` | Attach 3D fittings to furniture, compare finishes, and price the set |
 
 Search accepts `DH1501`, `DH-1501`, and `DH 1501`. Sofa model `1501` and concealed handle `DH-1501` remain separate products.
 
@@ -82,6 +83,20 @@ Filters cover category, size, finish, and data availability. CSV export includes
 Signed-in users share their shortlist with the iOS and Android apps and other devices.
 The browser keeps account-specific offline changes and retries sync every 15 seconds while open.
 Guest saves stay on this computer. Use “Add device saves to account” to copy them into the signed-in account.
+
+## Fitting playground
+
+The playground builds ten furniture pieces from adjustable templates: wardrobe, kitchen run, chest of drawers, bedside table, TV unit, sofa, bed, ottoman, wall folding table, and entrance door.
+Handles and knobs attach to doors and drawers, sofa legs to the underside of leg-mounted pieces, and brackets under the folding table top.
+Pieces on legs rise to the chosen leg size.
+`lib/playground.mjs` holds the templates, mounting rules, prices, and design links, and `tests/playground.test.mjs` covers them.
+`components/playground-scene.ts` draws the scene with three.js and loads the product GLBs with their finish variants.
+
+Each fitting keeps its finish, size, position, and angle. Finish names map to catalog price rows by letter or name, and per-inch prices multiply by the chosen length.
+The bill lists quantities and totals at the listed price or any calculated price, and exports CSV.
+Designs save in the browser, and share links carry the design in the address. Opening a share link requires sign-in.
+Product pages with a 3D model link to the playground with that product ready to place.
+The GLBs use Draco compression. `public/draco/` holds the decoder copied from `three/examples/jsm/libs/draco/gltf/`; copy it again after upgrading three.
 
 ## Separate model images
 
