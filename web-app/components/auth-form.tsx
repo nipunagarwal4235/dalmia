@@ -40,7 +40,7 @@ export function AuthForm({recovery=false, mode='login', next='/', expired=false}
       {!recovery&&<label>Email<input type="email" required autoComplete="email" value={email} onChange={e=>setEmail(e.target.value)}/></label>}
       {(mode!=='reset'||recovery)&&<label>Password<input aria-label="Password" type="password" required minLength={mode==='signup'||recovery?12:1} autoComplete={mode==='signup'||recovery?'new-password':'current-password'} value={password} onChange={e=>setPassword(e.target.value)}/>{(mode==='signup'||recovery)&&<small>Use at least 12 characters.</small>}</label>}
       {!!message&&<p role="status">{message}</p>}
-      <button className="button primary" disabled={busy}>{busy?'Please wait…':recovery?'Save password':mode==='signup'?'Create account':mode==='reset'?'Send reset link':'Sign in'}</button>
+      <button className="button primary" disabled={busy} aria-busy={busy}>{busy?'Please wait…':recovery?'Save password':mode==='signup'?'Create account':mode==='reset'?'Send reset link':'Sign in'}</button>
     </form>
     {!recovery&&<div className="account-actions">{mode!=='login'&&<Link className="text-button" href={`/login?next=${encodeURIComponent(next)}`}>Sign in</Link>}{mode!=='signup'&&<Link className="text-button" href={`/signup?next=${encodeURIComponent(next)}`}>Create account</Link>}{mode!=='reset'&&<Link className="text-button" href="/forgot-password">Forgot password?</Link>}</div>}
   </section>;
